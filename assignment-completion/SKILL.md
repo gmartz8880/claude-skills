@@ -19,6 +19,17 @@ Load this skill when the user:
 
 ## Step-by-Step Instructions
 
+### Step 0 — Ask for the User's Details (always first)
+
+Before doing anything else, ask the user in one message:
+
+- Their full name as it should appear on the assignment (or "no name")
+- Their school, and their class level (for example freshman, junior, graduate)
+- Course name and instructor, if they want them in the header
+- Whether they have JSTOR or other library database access through their school, and the library's web address
+
+If a profile skill, memory, or an earlier message in this conversation already gives any of these, show what you found and ask the user to confirm it instead of asking again. Never guess, and never use the skill author's name or school. Do not start the task until the user has answered.
+
 ### Step 1 — Parse the Assignment
 
 Read the full assignment prompt carefully. Extract and note:
@@ -48,7 +59,7 @@ For assignments requiring factual information, outside sources, or evidence, use
 2. **Multi-engine web search**: Search across the following engines using `browser_task` with `use_local_browser: true`. Run all simultaneously and deduplicate overlapping results:
    - **Google**: [google.com](https://www.google.com)
    - **DuckDuckGo**: [duckduckgo.com](https://www.duckduckgo.com)
-   - **JSTOR via SRU Library**: [jstor.org](https://www.jstor.org) — access through the user's Slippery Rock University library session. Before opening, notify the user: "Opening JSTOR using your SRU library session — you may need to log in if you aren't already."
+   - **JSTOR via SRU Library**: [jstor.org](https://www.jstor.org) — access through the user's school library session, only if they said in Step 0 that they have access. Before opening, notify the user: "Opening JSTOR through your school library — you may need to log in if you aren't already." Skip JSTOR if they have no access.
    - **Ecosia**: [ecosia.org](https://www.ecosia.org)
    - **Bing**: [bing.com](https://www.bing.com)
    Search the same topic query on each. Collect unique, credible results (peer-reviewed articles, .gov, .edu, reputable publications) and deduplicate any overlapping sources.
@@ -66,7 +77,7 @@ For assignments based on course material or personal reflection, skip research a
 
 Write the complete assignment from scratch following academic conventions:
 
-- Match the appropriate **academic tone and grade level** for a university student at Slippery Rock University
+- Match the appropriate **academic tone and grade level** for the school and class level the user gave in Step 0
 - Follow the **assignment type structure**:
   - Essays/research papers: introduction with thesis, body paragraphs, conclusion
   - Discussion posts: direct answer, supporting evidence, personal connection or question
@@ -113,11 +124,12 @@ All five passes are mandatory. The parallel phase maximizes variation and select
 
 ### Step 7 — Name Verification Pass (MANDATORY)
 
-Before confirming the output format, scan the entire assignment text — including any MLA/APA/Chicago header block, cover page, running header, footer, and Works Cited/References/Bibliography entries — for the string "Gary Martz".
+Before confirming the output format, scan the entire assignment text — including any MLA/APA/Chicago header block, cover page, running header, footer, and Works Cited/References/Bibliography entries — for the user's name.
 
-- If "Gary Martz" appears anywhere in the document, replace every instance with "Gabriel Martz".
-- Also check for near-variants ("Gary martz", "gary Martz", "GARY MARTZ") and normalize them all to "Gabriel Martz".
-- The user's real name is Gabriel Martz. Never leave "Gary Martz" in any final output.
+- Use the name the user gave in Step 0, spelled exactly as they gave it.
+- If any author line, header, or byline shows a different or misspelled version of that name, replace it with the user's name.
+- If the user did not want a name on the document, leave name lines out instead of inventing one.
+- Never insert a name the user did not give you.
 - This pass is mandatory and must run after humanization and before delivery.
 
 ### Step 8 — Confirm Output Format
@@ -171,7 +183,7 @@ Share the final file using `share_file`. Include a brief summary of:
 This skill was exported from Perplexity Computer. When a step names a tool Claude does not have, use the closest Claude equivalent:
 
 - `search_web`, `search_vertical` (academic), `fetch_url` — use Claude's web search and web fetch.
-- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as the SRU library or JSTOR).
+- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as a school library or JSTOR).
 - `read` — open the file from the skill folder or the user's upload.
 - `share_file` — save the finished file and provide it as a downloadable file.
 - Other skills named here (for example `humanize-ai-text`, `sds-bible`, `office/pdf`) — use the matching uploaded skill if installed; otherwise follow the instructions directly with code execution (python-docx, openpyxl, reportlab).

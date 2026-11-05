@@ -15,6 +15,13 @@ import sys
 from pathlib import Path
 
 SPEAK = Path(__file__).with_name("speak.py")
+sys.path.insert(0, str(Path(__file__).parent))
+try:
+    from common import load_state
+    _NAME = (load_state().get("name") or "").strip()
+except Exception:
+    _NAME = ""
+HEY = f"Hey {_NAME}" if _NAME else "Hey"
 
 
 def main() -> None:
@@ -25,11 +32,11 @@ def main() -> None:
     kind = data.get("notification_type", "")
     msg = (data.get("message") or "").strip()
     if kind == "permission_prompt":
-        say = "Hey Gabe, Claude needs a permission answer. Check the buttons in Telegram."
+        say = f"{HEY}, Claude needs a permission answer. Check the buttons in Telegram."
     elif kind == "idle_prompt":
-        say = "Hey Gabe, Claude is waiting on you."
+        say = f"{HEY}, Claude is waiting on you."
     else:
-        say = f"Hey Gabe. {msg[:160]}" if msg else "Hey Gabe, Claude has an update."
+        say = f"{HEY}. {msg[:160]}" if msg else f"{HEY}, Claude has an update."
     try:
         subprocess.run([sys.executable, str(SPEAK), say], timeout=90, capture_output=True)
     except Exception:

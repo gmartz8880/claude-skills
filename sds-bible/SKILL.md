@@ -12,6 +12,7 @@ Merged SDS requirements from the safety-bible and industrial-hygiene-bible skill
 
 ## Workflow
 
+0. **Ask for the preparer's details first.** Before doing anything else, ask the user what name (and optional organization) should appear on the "Prepared by" line. If a profile skill, memory, or an earlier message in this conversation already gives any of these, show what you found and ask the user to confirm it instead of asking again. Never guess, and never use the skill author's name or school. Do not start the task until the user has answered.
 1. **Identify each substance** named by the user (pure chemicals, industrial materials, trade-name products, welding gases, refrigerants, solvents, adhesives, coatings, fuels, lubricants, cleaners, compressed gases). For a mixture/trade product, identify every hazardous ingredient above cut-off limits.
 2. **Research** in this priority order:
    1. NIOSH Pocket Guide — https://www.cdc.gov/niosh/npg (limits, IDLH, respirators, symptoms, target organs, sampling methods)
@@ -58,7 +59,7 @@ After Section 16, add a full-width "HAZARD VULNERABILITY ASSESSMENT — AIRBORNE
 
 ## Output Specifications
 
-- PDF: read `references/pdf-format.md` and follow it exactly (fonts, navy section bars, page 1 header with "Prepared by: Gabriel Martz", label/value tables, bulleted H/P codes, gridded tables, references list, educational disclaimer, footer, file name).
+- PDF: read `references/pdf-format.md` and follow it exactly (fonts, navy section bars, page 1 header with "Prepared by: <the name the user gave in step 0>", label/value tables, bulleted H/P codes, gridded tables, references list, educational disclaimer, footer, file name).
 - Word: use `python-docx` and reproduce the same layout from `references/pdf-format.md` (Arial, navy-shaded section-bar cells with white bold text, same header, tables, bullets, disclaimer, footer with product name, "GHS SDS — 16 Sections", and Page X of Y fields). Save as `/home/user/workspace/<Substance_Name>_SDS.docx`.
 
 ## Delivery
@@ -70,7 +71,7 @@ Share each file in the chosen format(s), then add a "Generated SDS" section to t
 This skill was exported from Perplexity Computer. When a step names a tool Claude does not have, use the closest Claude equivalent:
 
 - `search_web`, `search_vertical` (academic), `fetch_url` — use Claude's web search and web fetch.
-- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as the SRU library or JSTOR).
+- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as a school library or JSTOR).
 - `read` — open the file from the skill folder or the user's upload.
 - `share_file` — save the finished file and provide it as a downloadable file.
 - Other skills named here (for example `humanize-ai-text`, `sds-bible`, `office/pdf`) — use the matching uploaded skill if installed; otherwise follow the instructions directly with code execution (python-docx, openpyxl, reportlab).

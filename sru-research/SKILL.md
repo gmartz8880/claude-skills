@@ -1,9 +1,9 @@
 ---
 name: sru-research
-description: Deep academic research skill for finding credible sources on any topic. Load when the user says "research [topic]" or asks to find sources, gather evidence, or look up information for a paper. Searches Google Scholar first, then runs simultaneous multi-engine searches across Google, DuckDuckGo, JSTOR (via SRU library session), Ecosia, and Bing, with built-in academic search as a fallback. Fetches full article content for specific sources found. Delivers a structured written report AND an annotated source list. Always asks the user which citation style to use (MLA, APA, or Chicago) before delivering output.
+description: Deep academic research skill for finding credible sources on any topic. Load when the user says "research [topic]" or asks to find sources, gather evidence, or look up information for a paper. Searches Google Scholar first, then runs simultaneous multi-engine searches across Google, DuckDuckGo, JSTOR (via the user's school library, if they have access), Ecosia, and Bing, with built-in academic search as a fallback. Fetches full article content for specific sources found. Delivers a structured written report AND an annotated source list. Always asks the user which citation style to use (MLA, APA, or Chicago) before delivering output.
 ---
 
-# SRU Research Skill
+# Research Skill
 
 ## When to Use This Skill
 
@@ -16,25 +16,29 @@ Load this skill when the user says **"research [topic]"** or asks to:
 
 ## Step-by-Step Workflow
 
-### Step 1 — Ask for Citation Style
+### Step 1 — Ask for the User's Details and Citation Style
 
-Before beginning any research, ask the user which citation style they want:
+Before beginning any research, ask the user in one message:
+
+- Their full name as it should appear on the report (or "no name")
+- Their school, and whether they have JSTOR access through its library (and the library's web address)
+- Which citation style they want:
 
 - MLA
 - APA
 - Chicago
 
-Do not proceed until you have their answer.
+If a profile skill, memory, or an earlier message in this conversation already gives any of these, show what you found and ask the user to confirm it instead of asking again. Never guess, and never use the skill author's name or school. Do not start the task until the user has answered.
 
 ### Step 2 — Google Scholar Search (Primary)
 
 Use `search_vertical` with `vertical: "academic"` to search Google Scholar for peer-reviewed, scholarly sources on the topic. Run 2–3 targeted queries to maximize coverage. Collect all results including titles, authors, publication dates, and DOIs.
 
-### Step 3 — JSTOR via SRU Library (Second Priority)
+### Step 3 — JSTOR via the User's School Library (Second Priority)
 
-Immediately after Google Scholar, use `browser_task` with `use_local_browser: true` to search JSTOR through the user's Slippery Rock University library proxy session at `https://www.sru.edu/library`. Navigate to the JSTOR database link from the library portal, search for the topic, and extract any available full-text articles or abstracts including title, author(s), journal, date, and URL.
+Immediately after Google Scholar, use `browser_task` with `use_local_browser: true` to search JSTOR through the user's school library proxy session, using the library address they gave in Step 1. If they have no library access, skip this step. Navigate to the JSTOR database link from the library portal, search for the topic, and extract any available full-text articles or abstracts including title, author(s), journal, date, and URL.
 
-This step runs before the general web engines and uses the user's authenticated SRU library session to access full JSTOR content.
+This step runs before the general web engines and uses the user's authenticated school library session to access full JSTOR content.
 
 ### Step 4 — Multi-Engine Simultaneous Search
 
@@ -84,11 +88,12 @@ A numbered list of all credible sources found. Each entry includes:
 
 ### Step 7b — Name Verification Pass (MANDATORY)
 
-Before the source quality check and final delivery, scan the entire research report and annotated source list — including any MLA/APA/Chicago header block, cover page, running header, footer, and Works Cited/References/Bibliography entries — for the string "Gary Martz".
+Before the source quality check and final delivery, scan the entire research report and annotated source list — including any MLA/APA/Chicago header block, cover page, running header, footer, and Works Cited/References/Bibliography entries — for the user's name.
 
-- If "Gary Martz" appears anywhere in the output, replace every instance with "Gabriel Martz".
-- Also check for near-variants ("Gary martz", "gary Martz", "GARY MARTZ") and normalize them all to "Gabriel Martz".
-- The user's real name is Gabriel Martz. Never leave "Gary Martz" in any final output.
+- Use the name the user gave in Step 1, spelled exactly as they gave it.
+- If any author line, header, or byline shows a different or misspelled version of that name, replace it with the user's name.
+- If the user did not want a name on the document, leave name lines out instead of inventing one.
+- Never insert a name the user did not give you.
 - This pass is mandatory and must run before delivery, regardless of citation style or output format.
 
 ### Step 8 — Source Quality Check
@@ -130,14 +135,14 @@ Use the build script at `/home/user/workspace/build_docx_social_v2.js` as the re
 - Always prioritize peer-reviewed and scholarly sources over general web sources
 - Government (.gov) and university (.edu) sites are preferred for web sources
 - Wikipedia may be used to find leads but should never be cited directly
-- The SRU library JSTOR session requires the user's local browser — always use `use_local_browser: true` when accessing library resources
+- The school library JSTOR session requires the user's local browser — always use `use_local_browser: true` when accessing library resources
 
 ## Running This Skill in Claude
 
 This skill was exported from Perplexity Computer. When a step names a tool Claude does not have, use the closest Claude equivalent:
 
 - `search_web`, `search_vertical` (academic), `fetch_url` — use Claude's web search and web fetch.
-- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as the SRU library or JSTOR).
+- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as a school library or JSTOR).
 - `read` — open the file from the skill folder or the user's upload.
 - `share_file` — save the finished file and provide it as a downloadable file.
 - Other skills named here (for example `humanize-ai-text`, `sds-bible`, `office/pdf`) — use the matching uploaded skill if installed; otherwise follow the instructions directly with code execution (python-docx, openpyxl, reportlab).

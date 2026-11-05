@@ -1,12 +1,12 @@
-# Owner standards (Gabriel Martz) - apply to every skill built for this user
+# Default standards - apply to every skill built
 
-Collected from the user's prior sessions (Claude Move project, Oct-Nov 2026).
+These are the skill author's defaults. At intake, also ask the user for their name (for the skill's `author` field) and their main operating system, and let their answers and any stated preferences override the defaults below.
 
 - Ask questions up front with the question tool, in one round; never repeat a question already answered.
 - After the questions, work autonomously: install what is missing, open apps, and finish the job.
 - Check whether a dependency is already installed before installing it (check-then-install).
 - Skills must work in both the Claude app (upload zip, folder at zip root) and Claude Code (`~/.claude/skills`).
-- Windows is the main machine; give PowerShell commands first.
+- Give commands for the user's main operating system first (PowerShell on Windows, bash on macOS/Linux).
 - Documents: Word (.docx) by default for guides, reports, forms, and academic work; revisions as new files.
 - Plain, conversational wording; numbered steps; minimal bolding; no decoration on forms.
 - Comparisons between AI services: neutral.
@@ -14,5 +14,4 @@ Collected from the user's prior sessions (Claude Move project, Oct-Nov 2026).
 - Be honest about verification: say what was tested and what was not.
 - After changing a skill, show the full updated workflow.
 - Each skill ships with its own detailed technical document and its own zip (no combined bundle unless asked).
-- Existing user skills to stay compatible with: product-market-research, video-playback-check, evidence-research,
-  safety/SDS/industrial-hygiene skills, gabriel-profile.
+- Stay compatible with the skills the user already has installed (check `~/.claude/skills` or ask).

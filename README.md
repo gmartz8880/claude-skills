@@ -11,23 +11,20 @@ Custom skills I built for Claude (claude.ai and Claude Code).
 | humanize-ai-text | Rewrites AI-sounding text to read naturally, outputs a Word doc |
 | sds-bible | Generates a full 16-section GHS Safety Data Sheet (Word/PDF) |
 | skill-forge | Builds, upgrades, validates, and packages new Claude skills |
-| sru-research | Multi-engine academic source research (built around Slippery Rock University library access) |
+| sru-research | Multi-engine academic source research (Google Scholar, JSTOR through your school library if you have it, and web engines) |
 | ti-calc-app-builder | Builds TI-84 Plus CE and TI-Nspire calculator apps |
 | voice-line | Two-way voice chat with Claude Code over Telegram (needs the Telegram plugin, whisper, piper, ffmpeg) |
 
 ## Install
 
-**claude.ai:** zip a skill folder (the folder itself at the zip root), then go to Settings → Capabilities → Skills → Upload skill.
+**Full step-by-step guide: [INSTALL.md](INSTALL.md)**
 
-**Claude Code:** copy the skill folder into `~/.claude/skills/`:
-
-```bash
-git clone https://github.com/gmartz8880/claude-skills.git
-cp -r claude-skills/sds-bible ~/.claude/skills/
-```
+- **claude.ai / desktop / mobile:** download the skill zips from [Releases](https://github.com/gmartz8880/claude-skills/releases/latest), then upload each one in Settings → Capabilities → Skills.
+- **Claude Code:** copy the skill folders into `~/.claude/skills/`.
 
 ## Notes
 
-- A few skills are tuned to me: they put my name on documents ("Prepared by", author lines) or rename "Gary Martz" to "Gabriel Martz". Search the SKILL.md for "Martz" and swap in your own name.
-- sru-research expects Slippery Rock University library (JSTOR proxy) access. Without it, that step falls back to the other search engines.
+- Nothing is pre-filled with my details. The first time you use a skill, it asks for your own name, and the school skills also ask for your school, class level and library access. If Claude already knows them from your profile or memory, it asks you to confirm instead.
+- sru-research and assignment-completion use JSTOR through your school library if you have it, and skip that step if you don't.
+- humanize-ai-text matches your writing style if you give it a short sample. Otherwise it uses a default style.
 - I left the reference PDFs out of ancient-script-translator because they're other people's copyrighted papers. `references/README.md` lists what they were. The skill works without them.

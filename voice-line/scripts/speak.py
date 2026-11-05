@@ -6,6 +6,7 @@ Usage:
   python speak.py --chat 123456789 "Hello"                  # explicit chat id
   python speak.py --text "long written detail" "Spoken summary."
   python speak.py --remember-chat 123456789                 # store default chat id
+  python speak.py --remember-name "Alex"                    # store the name used in greetings
   python speak.py --dry-run "test"                          # make the .ogg, do not send
 
 Voice order: Piper (local, open source) -> Windows System.Speech fallback.
@@ -124,9 +125,14 @@ def main() -> None:
     ap.add_argument("--text", help="optional longer written message sent after the voice note")
     ap.add_argument("--voice", default=os.environ.get("VOICE_LINE_PIPER_VOICE", DEFAULT_PIPER_VOICE))
     ap.add_argument("--remember-chat", metavar="CHAT_ID", help="store a default chat id and exit")
+    ap.add_argument("--remember-name", metavar="NAME", help="store the name used in spoken greetings and exit")
     ap.add_argument("--dry-run", action="store_true", help="build the audio file but do not send")
     args = ap.parse_args()
 
+    if args.remember_name:
+        st = load_state(); st["name"] = args.remember_name.strip(); save_state(st)
+        print(f"remembered name {args.remember_name.strip()}")
+        return
     if args.remember_chat:
         st = load_state(); st["chat_id"] = str(args.remember_chat); save_state(st)
         print(f"remembered chat_id {args.remember_chat}")

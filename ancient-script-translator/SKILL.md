@@ -94,7 +94,7 @@ This skill includes a `references/` folder with supplementary scholarly sources 
 This skill was exported from Perplexity Computer. When a step names a tool Claude does not have, use the closest Claude equivalent:
 
 - `search_web`, `search_vertical` (academic), `fetch_url` — use Claude's web search and web fetch.
-- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as the SRU library or JSTOR).
+- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as a school library or JSTOR).
 - `read` — open the file from the skill folder or the user's upload.
 - `share_file` — save the finished file and provide it as a downloadable file.
 - Other skills named here (for example `humanize-ai-text`, `sds-bible`, `office/pdf`) — use the matching uploaded skill if installed; otherwise follow the instructions directly with code execution (python-docx, openpyxl, reportlab).

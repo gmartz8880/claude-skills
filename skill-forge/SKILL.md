@@ -34,7 +34,7 @@ skill, prompt, Custom GPT, CLAUDE.md, script) / package or install existing skil
 
 ### Step 2 - Intake: one round of questions, then work
 Use the built-in question tool (AskUserQuestion in Claude Code / Cowork; the question card in the Claude
-apps). Ask only what the request did not already answer, using `references/intake.md`:
+apps). Ask only what the request did not already answer, using `references/intake.md`. Always include the user's name (for the `author` field) and their main operating system unless you already know them:
 the job and the finished output, trigger phrases, inputs, output format, where it will run (default: all),
 autonomy level (default: full autonomy inside the safety rules), and any accounts/apps it must use.
 Then proceed without further questions unless an answer would change the design.

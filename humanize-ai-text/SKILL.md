@@ -20,6 +20,15 @@ Load this skill when the user asks to:
 
 ## Instructions
 
+### Step 0 — Ask for the User's Details (always first)
+
+Before doing anything else, ask the user in one message:
+
+- Their full name as it should appear in any header or byline (or "no name")
+- Optional: a short sample of their own writing (a paragraph or two), so the rewrite sounds like them
+
+If a profile skill, memory, or an earlier message in this conversation already gives any of these, show what you found and ask the user to confirm it instead of asking again. Never guess, and never use the skill author's name or school. Do not start the task until the user has answered.
+
 ### Step 1 — Receive the Text
 
 Ask the user to paste the AI-generated text they want humanized if they haven't already.
@@ -88,7 +97,7 @@ AI-generated text is strongly associated with certain punctuation patterns. Pref
 
 ### Step 3b — Apply the User's Personal Writing Style
 
-After humanizing the text using the general and Turnitin-specific techniques above, apply the following personal writing style profile derived from the user's own writing. This ensures the output sounds like it was written by this specific person, not just a generic human.
+If the user gave a writing sample in Step 0, study it and match its sentence length, word choice, punctuation habits, and tone, and use that instead of the default profile below. If they gave no sample, apply the default profile below (it came from the skill author's writing). This ensures the output sounds like it was written by this specific person, not just a generic human.
 
 **Sentence Structure:**
 - Use long-to-medium sentences averaging 25–45 words, chaining clauses with "and," "but," and "because"
@@ -148,11 +157,12 @@ After humanizing the text using the general and Turnitin-specific techniques abo
 
 ### Step 3c — Name Verification Pass (MANDATORY)
 
-Before generating the Word document, scan the fully humanized text — including any MLA/APA/Chicago header block, cover page, running header, footer, and Works Cited/References/Bibliography entries — for the string "Gary Martz".
+Before generating the Word document, scan the fully humanized text — including any MLA/APA/Chicago header block, cover page, running header, footer, and Works Cited/References/Bibliography entries — for the user's name.
 
-- If "Gary Martz" appears anywhere in the text, replace every instance with "Gabriel Martz".
-- Also check for near-variants ("Gary martz", "gary Martz", "GARY MARTZ") and normalize them all to "Gabriel Martz".
-- The user's real name is Gabriel Martz. Never leave "Gary Martz" in any final output.
+- Use the name the user gave in Step 0, spelled exactly as they gave it.
+- If any author line, header, or byline shows a different or misspelled version of that name, replace it with the user's name.
+- If the user did not want a name on the document, leave name lines out instead of inventing one.
+- Never insert a name the user did not give you.
 - This pass is mandatory and must run after humanization and before the .docx is built.
 
 ### Step 4 — Generate the Word Document
@@ -197,7 +207,7 @@ After sharing the file, briefly tell the user:
 This skill was exported from Perplexity Computer. When a step names a tool Claude does not have, use the closest Claude equivalent:
 
 - `search_web`, `search_vertical` (academic), `fetch_url` — use Claude's web search and web fetch.
-- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as the SRU library or JSTOR).
+- `browser_task` / `use_local_browser` — use Claude in Chrome if it is enabled; otherwise use web search and ask the user to paste content from login-only sites (such as a school library or JSTOR).
 - `read` — open the file from the skill folder or the user's upload.
 - `share_file` — save the finished file and provide it as a downloadable file.
 - Other skills named here (for example `humanize-ai-text`, `sds-bible`, `office/pdf`) — use the matching uploaded skill if installed; otherwise follow the instructions directly with code execution (python-docx, openpyxl, reportlab).

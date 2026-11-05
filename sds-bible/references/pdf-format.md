@@ -11,7 +11,7 @@ Use Python `reportlab` (`SimpleDocTemplate` + flowables). Letter size, 0.75" mar
 1. "SAFETY DATA SHEET" — large Helvetica-Bold (~22pt), centered.
 2. "GHS Format — OSHA HazCom 2012 (29 CFR 1910.1200 Appendix D)" — 9pt, centered.
 3. Product name — Helvetica-Bold ~13pt, navy, centered.
-4. "Prepared by: Gabriel Martz" — 9pt, centered.
+4. "Prepared by: <name the user gave>" (add ", <organization>" if given) — 9pt, centered.
 5. Navy horizontal rule, full width.
 
 ## Section bars
