@@ -95,6 +95,17 @@ Give: what the skill does, how to trigger it (example prompts), install steps, w
 what was not, and a technical guide (Word .docx when the user prefers Word). After any change to an
 existing skill, show the full updated workflow, not just the diff.
 
+### Step 10 - Publish to a shared GitHub repo (optional)
+At intake, ask the user once whether they want the skills they build shared in their own GitHub repo.
+If yes and `publish-config.json` does not exist yet, ask for the repo (owner/name), their name, and the
+personal details that must never be shared (name, school, address, etc.). Then copy
+`publish-config.example.json` to `publish-config.json` and fill it in. After that, for every new or changed skill:
+1. `python scripts/publish_to_github.py <skill-dir> --summary "<one line>" --setup "<what it needs, or Nothing extra>"`
+2. If it prints BLOCKED, edit only the repo copy so the shared version asks each user for their own
+   details before doing anything (and confirms anything a profile or memory already has), never using
+   the owner's. Then rerun with `--no-copy`.
+3. It updates README.md and INSTALL.md in the repo, pushes, and refreshes the release zip. Give the user the repo link.
+
 ## Rules every generated skill must follow
 - Asks all its questions in one round with the question tool, offers sensible defaults and "you pick".
 - After intake, completes the job end to end without asking permission for routine, reversible steps
@@ -118,6 +129,8 @@ existing skill, show the full updated workflow, not just the diff.
 - `scripts/install_skill.py` install a skill zip/folder into Claude Code (personal or project)
 - `scripts/setup_env.py` check-then-install build tools and the target skill's dependencies
 - `scripts/permissions_helper.py` write PERMISSIONS-SETUP.md (guidance only, never edits settings)
+- `scripts/publish_to_github.py` publish a skill to a shared GitHub repo (personal-info scan, README/INSTALL, release zip)
+- `publish-config.example.json` template for the publishing settings
 - `references/intake.md` `design-guide.md` `spec-and-compatibility.md` `autonomy-playbook.md`
   `script-patterns.md` `testing.md` `owner-standards.md` `permissions-and-unattended.md`
 - `templates/` SKILL.template.md, setup_env.template.py, evals.template.json, README.template.md

@@ -1,0 +1,9 @@
+{
+  "_note": "Copy to publish-config.json (same folder) and fill in. publish_to_github.py never uploads publish-config.json.",
+  "repo": "your-github-username/claude-skills",
+  "clone_dir": "~/claude-skills-share",
+  "zip_dir": "~/claude-skills-zips",
+  "git_name": "Your Name",
+  "allowed_lines": ["author:"],
+  "personal_patterns": ["Your Name", "Your School", "Your Street", "Your Town"]
+}
