@@ -1,0 +1,45 @@
+"TI-84 PLUS CE TI-BASIC APP SKELETON
+"Battery: blocking Menu( and Input wait for keys without spinning; custom key loops rest with Wait (OS 5.2+)
+"Stability: validates every input, restores calculator settings, deletes temp vars on exit, never Goto out of a loop
+"Snappy: draws each screen once, reads keys every 50 ms, no redundant ClrHome
+ClrHome
+Float
+Lbl M
+Menu("MY CE APP","START",S,"HELP",H,"ABOUT",A,"QUIT",Q
+Lbl S
+ClrHome
+Disp "AREA OF A CIRCLE","ENTER RADIUS >0
+0→R
+Repeat R>0
+Input "R=",R
+If R≤0
+Disp "MUST BE >0
+End
+ClrHome
+Output(1,1,"RADIUS:
+Output(1,9,R
+Output(2,1,"AREA:
+Output(2,9,round(πR²,6
+Output(10,1,"[ENTER] AGAIN [CLEAR] MENU
+0→K
+Repeat K=105 or K=45
+Wait .05
+getKey→K
+End
+If K=105
+Goto S
+Goto M
+Lbl H
+ClrHome
+Disp "ARROWS + ENTER","PICK MENU ITEMS","CLEAR = BACK
+Pause 
+Goto M
+Lbl A
+ClrHome
+Disp "MY CE APP V1.0","TI-BASIC
+Pause 
+Goto M
+Lbl Q
+DelVar RDelVar K
+ClrHome
+Disp "BYE

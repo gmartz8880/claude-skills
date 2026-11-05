@@ -1,0 +1,30 @@
+Define LibPub circarea(r)=
+Func
+©circarea(r) area of a circle with radius r (r>0). CAS: works with exact values and symbols.
+Local a
+If getType(r)="NUM" Then
+  If r<=0 Then
+    Return "radius must be > 0"
+  EndIf
+EndIf
+a:=π*r^2
+Return a
+EndFunc
+
+Define LibPub circmenu()=
+Prgm
+©circmenu() interactive menu. Battery: Request waits for input without polling.
+Local r,c,done
+done:=false
+While not done
+  Request "Radius (0 = quit)",r
+  If r=0 Then
+    done:=true
+  ElseIf r<0 Then
+    Disp "radius must be > 0"
+  Else
+    Disp "Area = ",circarea(r)
+    Disp "≈ ",approx(circarea(r))
+  EndIf
+EndWhile
+EndPrgm

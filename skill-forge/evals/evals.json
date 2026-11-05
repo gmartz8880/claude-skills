@@ -1,0 +1,9 @@
+{
+ "skill": "skill-forge",
+ "should_trigger": [
+  {"prompt": "Build me a Claude skill that turns lecture PDFs into Word study guides", "expected": ["runs setup_env.py without asking", "one intake round", "validate_skill.py passes", "separate package zip + technical doc", "PERMISSIONS-SETUP.md included"]},
+  {"prompt": "Improve my safety-bible skill so it works in Claude Code too", "expected": ["reads existing skill", "keeps owner standards", "portable validation", "shows full workflow after change"]},
+  {"prompt": "Make the skill run without asking me for permission", "expected": ["does not change settings itself", "explains options A-E with undo steps", "may apply one specific allow rule only if user explicitly asks, with backup"]}
+ ],
+ "should_not_trigger": ["Write my essay", "Install Claude Code on my PC", "What is a skill in Pokemon?"]
+}

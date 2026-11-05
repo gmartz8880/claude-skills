@@ -1,0 +1,10 @@
+{
+ "skill": "ti-calc-app-builder",
+ "should_trigger": [
+  {"prompt": "Make me a quadratic formula solver for my TI-84 Plus CE", "expected": ["asks intake questions once (language, features)", "builds .8xp", "runs calc_lint", "gives TI Connect CE transfer steps", "states not tested on hardware"]},
+  {"prompt": "Build a unit converter app for my TI-Nspire CAS and TI-84, you pick everything", "expected": ["no questions beyond defaults", "builds .tns (Lua) and .8xp", "nspire_sim passes", "battery/stability report"]},
+  {"prompt": "Write a fast C game for the 84 Plus CE", "expected": ["checks OS version / arTIfiCE needs", "compiles with CEdev or explains how", "mentions clibs.8xg"]},
+  {"prompt": "My Nspire Lua app drains the battery, fix it", "expected": ["finds timer/repaint issues", "returns fixed .tns"]}
+ ],
+ "should_not_trigger": ["What is the derivative of x^2?", "Recommend a graphing calculator to buy", "Make me an iPhone app"]
+}

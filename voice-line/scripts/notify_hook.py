@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+"""Claude Code Notification hook: when Claude is waiting on you and you are away,
+push a short voice note to your phone. Reads the hook JSON from stdin.
+
+Wire it up with settings-hook-snippet.json (see INSTALL.md). Permission prompts
+already arrive as Allow/Deny buttons through the Telegram relay; this hook adds
+a spoken "I need you" so you notice it, and covers idle prompts too.
+Never blocks Claude: all failures are swallowed.
+"""
+from __future__ import annotations
+
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+SPEAK = Path(__file__).with_name("speak.py")
+
+
+def main() -> None:
+    try:
+        data = json.loads(sys.stdin.read() or "{}")
+    except json.JSONDecodeError:
+        return
+    kind = data.get("notification_type", "")
+    msg = (data.get("message") or "").strip()
+    if kind == "permission_prompt":
+        say = "Hey Gabe, Claude needs a permission answer. Check the buttons in Telegram."
+    elif kind == "idle_prompt":
+        say = "Hey Gabe, Claude is waiting on you."
+    else:
+        say = f"Hey Gabe. {msg[:160]}" if msg else "Hey Gabe, Claude has an update."
+    try:
+        subprocess.run([sys.executable, str(SPEAK), say], timeout=90, capture_output=True)
+    except Exception:
+        pass
+
+
+if __name__ == "__main__":
+    main()

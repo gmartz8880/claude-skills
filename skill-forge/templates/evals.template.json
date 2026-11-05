@@ -1,0 +1,9 @@
+{
+ "skill": "TODO",
+ "should_trigger": [
+  {"prompt": "TODO realistic request 1", "expected": ["asks intake questions once", "produces TODO output", "states what was verified"]},
+  {"prompt": "TODO realistic request 2 with details already given", "expected": ["skips questions already answered", "completes end to end"]},
+  {"prompt": "TODO edge case (missing input / unusual format)", "expected": ["handles it gracefully", "explains the limitation"]}
+ ],
+ "should_not_trigger": ["TODO unrelated request", "TODO near-miss request for a different skill"]
+}
