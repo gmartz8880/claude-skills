@@ -1,0 +1,12 @@
+{
+ "skill": "docs-to-skill",
+ "should_trigger": [
+  {"prompt": "Convert the Click documentation website https://click.palletsprojects.com/ into a skill", "expected": ["runs setup_env.py", "asks only name/depth in one round", "convert.py exits 0 with enhancement_ran false", "forge_gate check pass true", "ship installs the skill", "publishes only if license allows", "report lists what was verified"]},
+  {"prompt": "Make a Claude skill out of the FastAPI docs", "expected": ["finds the official docs URL and confirms it in the single intake round", "runs the full scrape-enhance-gate-ship workflow"]},
+  {"prompt": "turn https://docs.pydantic.dev into a skill I can upload to claude.ai", "expected": ["zip in dist/<name>/", "upload steps from INSTALL.md given", "gate results reported"]}
+ ],
+ "should_not_trigger": [
+  "Make a skill that renames my photos by date",
+  "Summarize the React documentation page on hooks for me"
+ ]
+}

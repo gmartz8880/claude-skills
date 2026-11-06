@@ -14,6 +14,7 @@ Custom skills I built for Claude (claude.ai and Claude Code).
 | sru-research | Multi-engine academic source research (Google Scholar, JSTOR through your school library if you have it, and web engines) |
 | ti-calc-app-builder | Builds TI-84 Plus CE and TI-Nspire calculator apps |
 | voice-line | Two-way voice chat with Claude Code over Telegram (needs the Telegram plugin, whisper, piper, ffmpeg) |
+| docs-to-skill | Turns a documentation website into a skill: Skill Seekers scrape, then the skill-forge gate (validate, test, package, install); publishes only when the docs license allows. |
 
 ## Install
 
