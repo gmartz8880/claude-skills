@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: asks-for-names
+expected_outcome: |
+  Before rendering, asks the user for every name used on the drawings and manual (company, owner, drawn by, checked by, drawing prefix) and uses only those answers.

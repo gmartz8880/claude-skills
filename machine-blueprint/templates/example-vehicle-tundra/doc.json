@@ -1,0 +1,480 @@
+{
+ "meta": {
+  "company": "EXAMPLE ENGINEERING CO.",
+  "tagline": "ENGINEERING · FABRICATION · VEHICLE SYSTEMS",
+  "doc_no": "EX-TUN-2010-01",
+  "rev": "A",
+  "date": "08 NOV 2026",
+  "title": "INSTRUMENT PANEL SWITCH BLANKS (\"POVERTY BUTTONS\")<br/>IDENTIFICATION, RETROFIT &amp; SET-UP PROCEDURES",
+  "cover_image": "{work}/blueprint.jpg",
+  "cover_caption": "Drawing EX-TUN-2010-01 (reduced). Full-size sheet issued separately.",
+  "applicability": [
+   [
+    "Vehicle",
+    "2010 Toyota Tundra SR5, Double Cab, 6.5 ft bed, i-FORCE V8"
+   ],
+   [
+    "Owner",
+    "G. Example"
+   ],
+   [
+    "Issued",
+    "08 Nov 2026 · Rev. A"
+   ],
+   [
+    "Drawing",
+    "EX-TUN-2010-01, sheet 1 of 1"
+   ]
+  ],
+  "stamps": {
+   "1": "CONTROLLED COPY",
+   "4": "FIELD VERIFIED"
+  },
+  "signoff": [
+   "Claude",
+   "B. Example",
+   "________________"
+  ],
+  "model_no": "2010 TUNDRA DC 4x4 - SR5 PKG (CODE BY VIN)"
+ },
+ "blocks": [
+  {
+   "h1": "1. SCOPE &amp; HOW TO USE THIS ORDER"
+  },
+  {
+   "p": "This order identifies every factory switch blank and deleted convenience feature on the 2010 Tundra SR5 instrument panel, states what the slot does on Limited / Platinum grades, and gives a field procedure to make each one work. Callout numbers 1-10 match drawing EX-TUN-2010-01."
+  },
+  {
+   "p": "<b>Trim background (2010).</b> Limited adds dual-zone automatic climate, heated leather power front seats, front &amp; rear clearance sonar, power-retractable heated auto-dimming side mirrors, an auto-dim rear-view mirror with compass and HomeLink, and steering-wheel audio controls; a power memory package was optional. Platinum adds ventilated front seats and a moonroof. Double Cab SR5 offered a sliding rear window; CrewMax has a power vertical rear window standard."
+  },
+  {
+   "p": "<b>Rule of the blank.</b> A connector behind a blank does <u>not</u> mean the feature is one switch away. Sensors, motors, modules and body-computer settings are normally missing on SR5 builds. Each callout lists two routes:"
+  },
+  {
+   "bullets": [
+    "<b>Route O (OEM):</b> genuine Toyota parts, factory look, highest cost; some need dealer Techstream setup.",
+    "<b>Route A (Aftermarket):</b> a purpose-built kit wired through a relay to an OEM-style switch in the blank; cheaper and self-contained."
+   ]
+  },
+  {
+   "p": "<b>Difficulty:</b> [1/5] bolt-on · [2/5] basic wiring · [3/5] seat/trim teardown · [4/5] major assembly or near airbags · [5/5] dealer programming."
+  },
+  {
+   "h1": "1A. KEY TO SYMBOLS &amp; ABBREVIATIONS"
+  },
+  {
+   "key": {}
+  },
+  {
+   "h1": "1B. GRADES, PACKAGES &amp; OPTIONS (TOYOTA TERMS)"
+  },
+  {
+   "p": "For 2010 Toyota reduced the Tundra to two grades (Tundra and Limited); SR5 became an option package on the Tundra grade, alongside Work Truck, TRD and Platinum packages. V = verify against the window sticker or a VIN decode."
+  },
+  {
+   "matrix": {}
+  },
+  {
+   "h1": "2. SAFETY - READ BEFORE ANY WORK"
+  },
+  {
+   "warn": "The 2010 Tundra has front, side, curtain and driver knee airbags. Disconnect the NEGATIVE battery cable and wait at least 90 seconds before working on the wheel, column, seats or lower dash. Never probe or splice yellow SRS wiring."
+  },
+  {
+   "bullets": [
+    "Lock out: key out, negative cable isolated and taped.",
+    "Fuse every new circuit at the source, sized to the WIRE. 18 AWG for switch/coil leads; 14-10 AWG for loads per kit.",
+    "Tap only ACC/IG accessory circuits with an add-a-fuse. Never tap SRS, ECU, ABS/VSC or CAN data lines.",
+    "Heat-shrink butt connectors or solder + heat-shrink. No scotch-locks. Keep wiring clear of pedals, steering shaft and seat tracks.",
+    "PPE: safety glasses for trim/glass work; cut-resistant gloves for rear glass.",
+    "After work: reconnect battery, confirm no SRS, VSC or check-engine light before driving."
+   ]
+  },
+  {
+   "h1": "3. TOOLS &amp; CONSUMABLES"
+  },
+  {
+   "table": {
+    "rows": [
+     [
+      "TOOL / MATERIAL",
+      "USE"
+     ],
+     [
+      "10 mm socket, ratchet, extension",
+      "Lower dash / knee panel; seats use 14 mm"
+     ],
+     [
+      "Plastic trim tools",
+      "Pop panels without marring"
+     ],
+     [
+      "Digital multimeter",
+      "Find ACC/IG power, test prewire"
+     ],
+     [
+      "Add-a-fuse taps + fuses",
+      "Fused power from the cab fuse box"
+     ],
+     [
+      "30 A relays + sockets",
+      "Switch real loads (Fig. W-1)"
+     ],
+     [
+      "Step drill, file",
+      "Open a blank for a round switch/knob"
+     ],
+     [
+      "18-10 AWG wire, loom, heat-shrink",
+      "Wiring"
+     ],
+     [
+      "Hog-ring pliers + rings",
+      "Heated-seat pads"
+     ],
+     [
+      "Torx T30 / T40",
+      "Seat, trim, airbag module"
+     ]
+    ],
+    "widths": [
+     2.6,
+     4.0
+    ],
+    "size": 9.4
+   }
+  },
+  {
+   "pagebreak": true
+  },
+  {
+   "h1": "4. COMMON PROCEDURES"
+  },
+  {
+   "h2": "4.1 Remove the lower-left (knee) panel"
+  },
+  {
+   "steps": [
+    "Lock out per Section 2.",
+    "Remove the plastic nut behind the parking-brake pedal and the 10 mm bolts; owners report two 10 mm bolts plus push clips on the panel under the column.",
+    "Pull the panel rearward with a trim tool, top to bottom. Unplug its switches.",
+    "Blanks release by squeezing their tabs from behind and pushing them toward the cabin (drawing Detail A)."
+   ]
+  },
+  {
+   "h2": "4.2 Center-stack blanks (callouts 3, 4, 10)"
+  },
+  {
+   "steps": [
+    "Parking brake on, shift to N, pry the center-stack bezel from the bottom edge up.",
+    "Unplug hazard/HVAC connectors as they appear; lay the bezel on a towel.",
+    "Blanks under the HVAC knobs release from behind like 4.1."
+   ]
+  },
+  {
+   "h2": "4.3 Add a switch to any blank (Fig. W-1)"
+  },
+  {
+   "steps": [
+    "Use an OEM-style switch made for 2007-2013 Tundra openings (e.g. Cali Raised LED), or step-drill the blank for a round switch.",
+    "Add-a-fuse in an ignition-switched slot (cab fuse box, driver kick panel); fuse the branch 5-10 A.",
+    "Wire: fused IG -> switch -> relay 86; relay 85 -> ground; fused battery + -> relay 30; relay 87 -> load +; load - -> ground.",
+    "Illumination: switch ILL+ to a dash-light feed so it dims with the panel.",
+    "Meter-test, function-test, reinstall panel."
+   ]
+  },
+  {
+   "fig": {
+    "path": "{work}/W1_relay.png",
+    "caption": "FIG. W-1 - Accessory relay circuit for any blank-slot switch."
+   }
+  },
+  {
+   "pagebreak": true
+  },
+  {
+   "h1": "5. CALLOUT PROCEDURES"
+  },
+  {
+   "feature": {
+    "n": "3 / 4",
+    "title": "HEATED FRONT SEATS",
+    "diff": "[3/5]",
+    "where": "Center stack, two blanks under HVAC knobs (L driver, R passenger)",
+    "trim": "Limited; SR5 with leather pkg",
+    "what": "Two-stage (Hi/Lo) cushion and back heat. Platinum carries heated/ventilated switches here.",
+    "route_o": "Seat heater switches (driver 84751-0C031 or -0C050, passenger 84751-0C041 or -0C060 - choose by VIN), heater elements (87510-0C030/-0C040 series), seat harness. Not recommended: cloth SR5 seats usually lack the heater harness.",
+    "route_a": "Carbon-fiber heated-seat kit per seat (pads, relay, Hi/Lo switch, harness). Put the kit switch in the factory blank, or use genuine Toyota seat-heat switches to drive the kit relay.",
+    "steps": [
+     "Lock out. Remove seat: 4 bolts (14 mm), tilt back, unplug power-seat and SRS/occupant connectors.",
+     "Release cover hog rings, peel back. Lay pads on foam, clear of seams, buckle and passenger sensor mat.",
+     "Re-ring cover. Mount kit relay to seat frame.",
+     "Power: add-a-fuse on IG, 15 A (or kit spec), under carpet to relay; ground to a seat-bolt stud.",
+     "Remove stack bezel (4.2), pop blank, fit switch, run leads down console side.",
+     "Reinstall seat (torque per FSM), reconnect battery, confirm SRS light goes out."
+    ],
+    "verify": "Each seat warm on Hi in 3-5 min; Lo cooler; switch lights and dims; no SRS light.",
+    "caution": "Never cut or reroute occupant-sensor or side-airbag wiring. No pads under the passenger sensor mat.",
+    "fig": "{work}/W2_heatseat.png",
+    "fig_caption": "FIG. W-2 - Heated-seat kit wiring (per seat)."
+   }
+  },
+  {
+   "feature": {
+    "n": 2,
+    "title": "CLEARANCE SONAR (PARK ASSIST)",
+    "diff": "[5/5 OEM · 3/5 kit]",
+    "where": "Switch strip right of the gauges, [S] key",
+    "trim": "Limited / Platinum",
+    "what": "Front and rear bumper sensors beep as obstacles get close; the key turns it on/off.",
+    "route_o": "Drive-monitor switch with sonar key (84977-0C080), sensors (89341-33180-C0) and retainers (89348-33080), sonar ECU, bumper and body harnesses, bumper drilling, dealer Techstream setup.",
+    "route_a": "Universal 4- or 8-sensor park-assist kit. Drill bumpers with the kit hole saw; wire the kit enable through an OEM-style switch in the blank.",
+    "steps": [
+     "Mark bumper(s) at kit height and spacing.",
+     "Drill with supplied hole saw; fit sensors; route leads to control box.",
+     "Power: reverse-lamp circuit (rear-only) or fused IG + reverse trigger (front+rear).",
+     "Fit switch in blank, wire as kit enable; reinstall trim."
+    ],
+    "verify": "Walk-test each sensor at 3 ft / 1.5 ft / 1 ft; tone speeds up; switch disables.",
+    "caution": "Metal bumpers cause false alerts (Toyota TSBs on later Tundras). Use isolating grommets; keep sensors flush."
+   }
+  },
+  {
+   "feature": {
+    "n": 9,
+    "title": "TRAILER BRAKE CONTROLLER",
+    "diff": "[2/5]",
+    "where": "Knee panel, 4th blank (remote knob)",
+    "trim": "Prewire with factory tow package",
+    "what": "Proportional control of electric trailer brakes. No integrated controller in 2010; Toyota pre-wires a plug under the dash.",
+    "route_o": "None - not offered integrated in 2010.",
+    "route_a": "Any proportional controller (Tekonsha P3, Curt TriFlex, Redarc Tow-Pro) + Toyota plug-in harness (Tekonsha 3040-P or equivalent). Redarc's TPSI-007 switch insert is listed for 2005-2007 Tundra only - on this truck step-drill a blank for the knob.",
+    "steps": [
+     "Find the white factory plug under the dash left of the column, often taped above the parking-brake pedal or behind the kick panel.",
+     "Meter it: 12 V constant, ground, stop signal; confirm the blue brake wire reaches the rear 7-way.",
+     "Plug in harness, mount controller clear of your knee; knob in blank 9 if used.",
+     "Set gain with the trailer: firm stop at ~20 mph without lock-up."
+    ],
+    "verify": "Controller sees the trailer; manual lever applies trailer brakes.",
+    "caution": "Without the factory 7-way the port may be incomplete - run 10 AWG brake wire and a 7-way kit first.",
+    "fig": "{work}/W3_tbc.png",
+    "fig_caption": "FIG. W-3 - Brake controller at the factory prewire."
+   }
+  },
+  {
+   "feature": {
+    "n": 1,
+    "title": "AUXILIARY CIRCUIT (SPARE SLOT)",
+    "diff": "[2/5]",
+    "where": "Knee panel, 3rd blank",
+    "trim": "None - spare",
+    "what": "Spare position for light bar, ditch/rock lights, bed lights, compressor or USB power.",
+    "route_o": "N/A.",
+    "route_a": "OEM-style Tundra switch with printed legend + relay harness.",
+    "steps": [
+     "Follow 4.1 and 4.3.",
+     "Size relay/fuse/wire to the load (e.g. 30 A relay, 14 AWG for a typical LED bar).",
+     "Order the switch legend to match the circuit."
+    ],
+    "verify": "Load runs only with key ON; switch lights and dims."
+   }
+  },
+  {
+   "feature": {
+    "n": 5,
+    "title": "POWER SLIDING REAR WINDOW",
+    "diff": "[4/5]",
+    "where": "Knee panel, bottom blank",
+    "trim": "Limited / option",
+    "what": "Power-sliding center pane in the back glass, run from the dash.",
+    "route_o": "Power-slider back glass with motor, dash switch and cab harness; old glass cut out and new glass bonded - glass-shop job.",
+    "route_a": "Aftermarket powered slider assemblies for 2007-2013 Tundra; same bonding job.",
+    "steps": [
+     "Glass shop removes old glass and bonds the power unit; respect urethane cure time.",
+     "Route motor harness to the dash; fit switch; fuse per instructions."
+    ],
+    "verify": "Full travel, no binding, no leaks in a hose test after cure."
+   }
+  },
+  {
+   "feature": {
+    "n": 6,
+    "title": "POWER-FOLDING MIRRORS",
+    "diff": "[4/5]",
+    "where": "Knee panel, top blank (next to mirror adjust)",
+    "trim": "Limited / Platinum",
+    "what": "Folds both mirrors in from a button.",
+    "route_o": "Limited power-folding mirrors, retract switch, door-harness pins for the fold circuit. Compare connectors before buying used.",
+    "route_a": "None common - OEM swap is the realistic path.",
+    "steps": [
+     "Remove door panels; compare mirror connectors to the donor.",
+     "Run fold-motor wires through the door boot to the dash switch; fuse per circuit.",
+     "Fit switch; test both directions."
+    ],
+    "verify": "Fold/unfold fully; adjust and heat still work."
+   }
+  },
+  {
+   "feature": {
+    "n": 7,
+    "title": "STEERING-WHEEL AUDIO CONTROLS",
+    "diff": "[4/5]",
+    "where": "Steering-wheel spokes",
+    "trim": "Limited; JBL / Nav",
+    "what": "Volume, mode, seek and phone keys on the wheel.",
+    "route_o": "Wheel with switches, matching spiral cable, radio that accepts wheel-control input.",
+    "route_a": "With an aftermarket stereo: OEM wheel switches + SWC interface (Axxess / PAC type).",
+    "steps": [
+     "Lock out, wait 90 s+. Remove airbag module (T30 screws), unplug, set face-UP.",
+     "Swap wheel/switches and spiral cable with wheels straight and cable centered.",
+     "Reinstall, torque per FSM, reconnect battery, check SRS light."
+    ],
+    "verify": "All keys and horn work; SRS light goes out.",
+    "caution": "Never set an airbag module face-down or test it with a test light. If unsure, have a shop do this part."
+   }
+  },
+  {
+   "feature": {
+    "n": 8,
+    "title": "AUTO-DIM MIRROR · COMPASS · HOMELINK",
+    "diff": "[2/5]",
+    "where": "Rear-view mirror",
+    "trim": "Limited; option",
+    "what": "Dims glare, shows heading, opens up to 3 garage doors.",
+    "route_o": "Toyota auto-dim/compass/HomeLink mirror for this model.",
+    "route_a": "Gentex-type auto-dim mirror: IG +12 V, ground, optional reverse signal.",
+    "steps": [
+     "Look behind the headliner/mirror cover for an existing plug first.",
+     "Otherwise run wire down the A-pillar behind the trim, clear of the curtain airbag.",
+     "Mount on glass button; program HomeLink; calibrate compass."
+    ],
+    "verify": "Dims with a flashlight from behind; compass reads right; HomeLink works.",
+    "caution": "The A-pillar trim covers the curtain airbag - route wire behind it, never across its path."
+   }
+  },
+  {
+   "feature": {
+    "n": 10,
+    "title": "4WD SELECTOR / COIN TRAY",
+    "diff": "[n/a]",
+    "where": "Center stack, left of shifter",
+    "trim": "Drivetrain - not a trim option",
+    "what": "4x4 trucks have a 2WD/4H/4L dial (84724-0C020 type); 4x2 trucks have a coin tray.",
+    "route_o": "Not a trim unlock.",
+    "route_a": "N/A.",
+    "steps": [
+     "Reference only."
+    ],
+    "verify": "-"
+   }
+  },
+  {
+   "pagebreak": true
+  },
+  {
+   "h1": "6. PARTS SCHEDULE"
+  },
+  {
+   "p": "Dealer-site prices seen Nov 2026; they change. Several numbers have left/right, vented or superseded versions - <b>give a Toyota parts counter your VIN</b> before ordering."
+  },
+  {
+   "table": {
+    "rows": [
+     [
+      "CALLOUT",
+      "PART",
+      "PART NUMBER",
+      "NOTE"
+     ],
+     [
+      "3",
+      "Seat heater switch, driver",
+      "84751-0C031 (repl. -0C030) or 84751-0C050",
+      "~$73-77 online; pick by VIN"
+     ],
+     [
+      "4",
+      "Seat heater switch, passenger",
+      "84751-0C041 (repl. -0C040) or 84751-0C060",
+      "Same"
+     ],
+     [
+      "2",
+      "Drive-monitor switch w/ sonar",
+      "84977-0C080 (repl. -0C040)",
+      "OEM route only"
+     ],
+     [
+      "2",
+      "Sonar sensor / retainer",
+      "89341-33180-C0 / 89348-33080",
+      "OEM route only"
+     ],
+     [
+      "9",
+      "Brake-controller harness",
+      "Tekonsha 3040-P",
+      "Plugs into factory port"
+     ],
+     [
+      "1,5,6,9",
+      "Spare blank, knee panel",
+      "55539-06090-C0",
+      "If you cut one"
+     ],
+     [
+      "3,4",
+      "Spare blank, under HVAC",
+      "55539-0C110",
+      "If you cut one"
+     ],
+     [
+      "1",
+      "OEM-style labeled switch",
+      "Cali Raised LED 2007-2013 Tundra switch",
+      "Drops into openings"
+     ],
+     [
+      "10",
+      "4WD switch (4x4 only)",
+      "84724-0C020",
+      "Reference"
+     ]
+    ],
+    "widths": [
+     0.75,
+     1.85,
+     2.2,
+     1.8
+    ],
+    "size": 9
+   }
+  },
+  {
+   "h1": "7. REFERENCES"
+  },
+  {
+   "bullets": [
+    "Auto123 - 2010 Tundra SR5 4.6L 4x4 Double Cab specifications.",
+    "VelocityJournal / Toyota press - 2010 Tundra grade features.",
+    "KBB - used 2010 Tundra Double Cab review.",
+    "ToyotaPartsNow, ToyotaPartsDeal, autoparts.toyota.com - switch listings.",
+    "etrailer.com - Tundra brake-controller port and 3040-P Q&amp;A.",
+    "Redarc - TPSI-007 fitment.",
+    "Tundras.com forums - panel removal, blank part numbers.",
+    "NHTSA TSBs T-SB-0022-15, T-SB-0277-17 - Tundra sonar false alerts."
+   ]
+  },
+  {
+   "pagebreak": true
+  },
+  {
+   "h1": "8. DRAWING APPENDIX"
+  },
+  {
+   "sheets": {
+    "caption": "EX-TUN-2010-01 · SHEET"
+   }
+  }
+ ]
+}

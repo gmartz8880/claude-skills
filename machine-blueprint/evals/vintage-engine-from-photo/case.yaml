@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: vintage-engine-from-photo
+expected_outcome: |
+  Traces from the photo, researches Model N specs, produces aged blueprint set and a restoration-focused manual with honest verified/typical labels.

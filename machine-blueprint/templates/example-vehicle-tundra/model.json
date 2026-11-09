@@ -1,0 +1,224 @@
+{
+ "identity": {
+  "make": "Toyota",
+  "model": "Tundra Double Cab 4x4 (2nd gen, 2010 facelift)",
+  "model_no": "2010 TUNDRA DC 4x4 - SR5 PKG (CODE BY VIN)",
+  "year": "2010",
+  "tier_label": "Grade",
+  "tier": "Tundra Grade + SR5 Package",
+  "dwg_no": "EX-TUN-2010-01",
+  "company": "EXAMPLE ENGINEERING CO.",
+  "owner": "A. EXAMPLE",
+  "description": "Full-size pickup, 145.7 in WB, standard bed"
+ },
+ "units": "in",
+ "dim_factor": 1,
+ "dim_format": "{:.1f} in",
+ "note": "Envelope model from published dims: L 228.7, W 79.9, H 76.2 (4x4), WB 145.7, track 67.9 in.",
+ "parts": [
+  {
+   "id": "B01",
+   "name": "Frame rails (fully boxed front / C-channel rear)",
+   "part_no": "Toyota EPC by VIN",
+   "callout": null,
+   "shape": "box",
+   "p": [
+    20,
+    18,
+    13
+   ],
+   "size": [
+    190,
+    44,
+    8
+   ],
+   "material": ""
+  },
+  {
+   "id": "B02",
+   "name": "Pickup bed, 6.5 ft (78.7 in inside)",
+   "part_no": "Toyota EPC by VIN",
+   "callout": 5,
+   "shape": "box",
+   "p": [
+    3,
+    1,
+    22
+   ],
+   "size": [
+    83,
+    78,
+    36
+   ],
+   "material": ""
+  },
+  {
+   "id": "B03",
+   "name": "Double Cab body",
+   "part_no": "Toyota EPC by VIN",
+   "callout": 2,
+   "shape": "box",
+   "p": [
+    88,
+    1,
+    22
+   ],
+   "size": [
+    84,
+    78,
+    54.2
+   ],
+   "material": ""
+  },
+  {
+   "id": "B04",
+   "name": "Hood / engine bay",
+   "part_no": "Toyota EPC by VIN",
+   "callout": 3,
+   "shape": "box",
+   "p": [
+    172,
+    3,
+    22
+   ],
+   "size": [
+    50,
+    74,
+    34
+   ],
+   "material": ""
+  },
+  {
+   "id": "B05",
+   "name": "Front bumper",
+   "part_no": "Toyota EPC by VIN",
+   "callout": null,
+   "shape": "box",
+   "p": [
+    221,
+    4,
+    14
+   ],
+   "size": [
+    7.7,
+    72,
+    12
+   ],
+   "material": ""
+  },
+  {
+   "id": "B06",
+   "name": "Rear step bumper",
+   "part_no": "Toyota EPC by VIN",
+   "callout": 6,
+   "shape": "box",
+   "p": [
+    0,
+    4,
+    14
+   ],
+   "size": [
+    5,
+    72,
+    10
+   ],
+   "material": ""
+  },
+  {
+   "id": "B07",
+   "name": "Tailgate",
+   "part_no": "Toyota EPC by VIN",
+   "callout": null,
+   "shape": "box",
+   "p": [
+    1,
+    3,
+    26
+   ],
+   "size": [
+    2.5,
+    74,
+    30
+   ],
+   "material": ""
+  },
+  {
+   "id": "W01",
+   "name": "Wheel + tire 275/65R18 or 255/70R18 (LF)",
+   "part_no": "Tire size per door placard",
+   "callout": 4,
+   "shape": "cyl",
+   "p": [
+    190.7,
+    0.6,
+    16
+   ],
+   "r": 16,
+   "h": 11,
+   "axis": "y"
+  },
+  {
+   "id": "W02",
+   "name": "Wheel + tire 275/65R18 or 255/70R18 (RF)",
+   "part_no": "Tire size per door placard",
+   "callout": null,
+   "shape": "cyl",
+   "p": [
+    190.7,
+    68.3,
+    16
+   ],
+   "r": 16,
+   "h": 11,
+   "axis": "y"
+  },
+  {
+   "id": "W03",
+   "name": "Wheel + tire 275/65R18 or 255/70R18 (LR)",
+   "part_no": "Tire size per door placard",
+   "callout": null,
+   "shape": "cyl",
+   "p": [
+    45,
+    0.6,
+    16
+   ],
+   "r": 16,
+   "h": 11,
+   "axis": "y"
+  },
+  {
+   "id": "W04",
+   "name": "Wheel + tire 275/65R18 or 255/70R18 (RR)",
+   "part_no": "Tire size per door placard",
+   "callout": null,
+   "shape": "cyl",
+   "p": [
+    45,
+    68.3,
+    16
+   ],
+   "r": 16,
+   "h": 11,
+   "axis": "y"
+  },
+  {
+   "id": "M01",
+   "name": "Outside mirrors (each)",
+   "part_no": "Toyota EPC by VIN",
+   "callout": null,
+   "shape": "box",
+   "p": [
+    150,
+    -0.0,
+    56
+   ],
+   "size": [
+    6,
+    79.9,
+    4
+   ],
+   "material": ""
+  }
+ ]
+}

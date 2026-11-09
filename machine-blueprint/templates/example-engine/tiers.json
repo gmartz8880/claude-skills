@@ -1,0 +1,101 @@
+{
+ "tier_label": "Version",
+ "family": "Generic 212cc OHV (example)",
+ "note": "Example tiers - a real run uses the manufacturer's own version names and model numbers.",
+ "tiers": [
+  {
+   "name": "Recoil start",
+   "code": "GEN-212-OHV-R"
+  },
+  {
+   "name": "Electric start",
+   "code": "GEN-212-OHV-E"
+  },
+  {
+   "name": "Electric start + charging",
+   "code": "GEN-212-OHV-EC"
+  }
+ ],
+ "groups": [
+  {
+   "group": "Starting",
+   "features": [
+    {
+     "feature": "Recoil starter",
+     "values": [
+      "S",
+      "S",
+      "S"
+     ]
+    },
+    {
+     "feature": "12 V electric starter + solenoid",
+     "values": [
+      "-",
+      "S",
+      "S"
+     ]
+    },
+    {
+     "feature": "Key switch",
+     "values": [
+      "-",
+      "S",
+      "S"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Electrical",
+   "features": [
+    {
+     "feature": "Magneto ignition",
+     "values": [
+      "S",
+      "S",
+      "S"
+     ]
+    },
+    {
+     "feature": "Low-oil shutdown sensor",
+     "values": [
+      "S",
+      "S",
+      "S"
+     ]
+    },
+    {
+     "feature": "Charging coil + rectifier",
+     "values": [
+      "-",
+      "O",
+      "S"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Accessories",
+   "features": [
+    {
+     "feature": "Tachometer / hour meter",
+     "values": [
+      "O",
+      "O",
+      "O"
+     ]
+    },
+    {
+     "feature": "Oil-bath air cleaner",
+     "code": "OB-1",
+     "values": [
+      "O",
+      "O",
+      "O"
+     ]
+    }
+   ]
+  }
+ ]
+}

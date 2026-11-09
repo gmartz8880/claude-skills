@@ -1,0 +1,2934 @@
+{
+ "set": {
+  "dwg_no": "EX-ENG-2026-01",
+  "company": "EXAMPLE ENGINEERING CO.",
+  "tagline": "ENGINEERING \u00b7 FABRICATION \u00b7 VEHICLE SYSTEMS",
+  "owner": "A. EXAMPLE",
+  "machine_line": "MACHINE: GENERIC 212cc OHV SMALL ENGINE (EXAMPLE)",
+  "date": "08 NOV 2026",
+  "drawn": "A. Example",
+  "checked": "B.E.",
+  "scale": "1:2 APPROX",
+  "model_no": "GEN-212-OHV",
+  "machine_class": "engine"
+ },
+ "sheets": [
+  {
+   "title": "MULTI-VIEW ORTHOGRAPHIC \u00b7 THIRD-ANGLE PROJECTION \u00b7 OVERALL BUILD DIMENSIONS",
+   "subtitle": "TOP VIEW PROJECTED ABOVE FRONT VIEW, RIGHT VIEW PROJECTED TO THE RIGHT - DIMENSIONS IN INCHES (REF) - VERIFY ON YOUR UNIT",
+   "block_title": "212cc OHV ENGINE - MULTI-VIEW & DIMENSIONS",
+   "panels": [
+    {
+     "type": "view",
+     "box": [
+      100,
+      250,
+      1100,
+      600
+     ],
+     "title": "TOP VIEW",
+     "scale": 0.82,
+     "origin": [
+      70,
+      40
+     ],
+     "elements": [
+      {
+       "t": "rect",
+       "x": 260,
+       "y": 120,
+       "w": 530,
+       "h": 360,
+       "sw": 4
+      },
+      {
+       "t": "rect",
+       "x": 300,
+       "y": 160,
+       "w": 450,
+       "h": 280,
+       "rx": 20,
+       "sw": 3
+      },
+      {
+       "t": "rect",
+       "x": 280,
+       "y": 40,
+       "w": 490,
+       "h": 80,
+       "rx": 12,
+       "sw": 4
+      },
+      {
+       "t": "text",
+       "x": 525,
+       "y": 88,
+       "text": "RECOIL / FLYWHEEL SHROUD",
+       "size": 17,
+       "anchor": "mm"
+      },
+      {
+       "t": "rect",
+       "x": 400,
+       "y": 190,
+       "w": 260,
+       "h": 230,
+       "rx": 8,
+       "sw": 4
+      },
+      {
+       "t": "rect",
+       "x": 430,
+       "y": 220,
+       "w": 200,
+       "h": 170,
+       "rx": 14,
+       "sw": 3
+      },
+      {
+       "t": "rect",
+       "x": 660,
+       "y": 180,
+       "w": 130,
+       "h": 130,
+       "rx": 10,
+       "sw": 3
+      },
+      {
+       "t": "text",
+       "x": 725,
+       "y": 250,
+       "text": "AIR CLNR",
+       "size": 16,
+       "anchor": "mm"
+      },
+      {
+       "t": "hatch",
+       "x": 660,
+       "y": 330,
+       "w": 130,
+       "h": 110,
+       "angle": 60,
+       "spacing": 14
+      },
+      {
+       "t": "rect",
+       "x": 505,
+       "y": 480,
+       "w": 40,
+       "h": 80,
+       "sw": 4
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         400,
+         300
+        ],
+        [
+         350,
+         300
+        ]
+       ],
+       "sw": 5
+      },
+      {
+       "t": "rect",
+       "x": 320,
+       "y": 288,
+       "w": 30,
+       "h": 24,
+       "sw": 2
+      },
+      {
+       "t": "centerline",
+       "p1": [
+        525,
+        20
+       ],
+       "p2": [
+        525,
+        580
+       ]
+      },
+      {
+       "t": "centerline",
+       "p1": [
+        230,
+        300
+       ],
+       "p2": [
+        820,
+        300
+       ]
+      },
+      {
+       "t": "circle",
+       "x": 290,
+       "y": 450,
+       "r": 10,
+       "sw": 2
+      },
+      {
+       "t": "circle",
+       "x": 760,
+       "y": 450,
+       "r": 10,
+       "sw": 2
+      },
+      {
+       "t": "circle",
+       "x": 290,
+       "y": 150,
+       "r": 10,
+       "sw": 2
+      },
+      {
+       "t": "circle",
+       "x": 760,
+       "y": 150,
+       "r": 10,
+       "sw": 2
+      },
+      {
+       "t": "dim",
+       "p1": [
+        260,
+        120
+       ],
+       "p2": [
+        260,
+        480
+       ],
+       "offset": 60,
+       "text": "DEPTH 14.4 in"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         290,
+         450
+        ],
+        [
+         330,
+         600
+        ],
+        [
+         560,
+         600
+        ]
+       ],
+       "text": "4x MOUNT HOLES, 6.1 x 3.6 in CTRS (REF)"
+      }
+     ]
+    },
+    {
+     "type": "view",
+     "box": [
+      100,
+      870,
+      1100,
+      830
+     ],
+     "title": "FRONT VIEW (PTO SIDE)",
+     "scale": 0.82,
+     "origin": [
+      70,
+      -105
+     ],
+     "elements": [
+      {
+       "t": "rect",
+       "x": 260,
+       "y": 900,
+       "w": 530,
+       "h": 40,
+       "sw": 4
+      },
+      {
+       "t": "circle",
+       "x": 290,
+       "y": 920,
+       "r": 10,
+       "sw": 2
+      },
+      {
+       "t": "circle",
+       "x": 760,
+       "y": 920,
+       "r": 10,
+       "sw": 2
+      },
+      {
+       "t": "rect",
+       "x": 300,
+       "y": 650,
+       "w": 450,
+       "h": 250,
+       "rx": 30,
+       "sw": 5
+      },
+      {
+       "t": "rect",
+       "x": 420,
+       "y": 390,
+       "w": 220,
+       "h": 260,
+       "sw": 4
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         380,
+         410
+        ],
+        [
+         680,
+         410
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         380,
+         437
+        ],
+        [
+         680,
+         437
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         380,
+         464
+        ],
+        [
+         680,
+         464
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         380,
+         491
+        ],
+        [
+         680,
+         491
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         380,
+         518
+        ],
+        [
+         680,
+         518
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         380,
+         545
+        ],
+        [
+         680,
+         545
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         380,
+         572
+        ],
+        [
+         680,
+         572
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         380,
+         599
+        ],
+        [
+         680,
+         599
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         380,
+         626
+        ],
+        [
+         680,
+         626
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "rect",
+       "x": 400,
+       "y": 310,
+       "w": 260,
+       "h": 80,
+       "rx": 8,
+       "sw": 4
+      },
+      {
+       "t": "rect",
+       "x": 430,
+       "y": 255,
+       "w": 200,
+       "h": 55,
+       "rx": 14,
+       "sw": 3
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         410,
+         350
+        ],
+        [
+         360,
+         320
+        ]
+       ],
+       "sw": 5
+      },
+      {
+       "t": "rect",
+       "x": 330,
+       "y": 300,
+       "w": 36,
+       "h": 24,
+       "sw": 2
+      },
+      {
+       "t": "circle",
+       "x": 525,
+       "y": 780,
+       "r": 34,
+       "sw": 4
+      },
+      {
+       "t": "rect",
+       "x": 519,
+       "y": 744,
+       "w": 12,
+       "h": 10,
+       "sw": 2
+      },
+      {
+       "t": "centerline",
+       "p1": [
+        230,
+        780
+       ],
+       "p2": [
+        820,
+        780
+       ]
+      },
+      {
+       "t": "centerline",
+       "p1": [
+        525,
+        230
+       ],
+       "p2": [
+        525,
+        970
+       ]
+      },
+      {
+       "t": "section",
+       "p1": [
+        530,
+        215
+       ],
+       "p2": [
+        530,
+        985
+       ],
+       "label": "A",
+       "dir": -1
+      },
+      {
+       "t": "dim",
+       "p1": [
+        260,
+        940
+       ],
+       "p2": [
+        790,
+        940
+       ],
+       "offset": 70,
+       "text": "15.6 in (REF)"
+      },
+      {
+       "t": "dim",
+       "p1": [
+        790,
+        255
+       ],
+       "p2": [
+        790,
+        940
+       ],
+       "offset": -80,
+       "text": "13.4 in"
+      },
+      {
+       "t": "dim",
+       "p1": [
+        230,
+        780
+       ],
+       "p2": [
+        230,
+        940
+       ],
+       "offset": 40,
+       "text": "SHAFT CL 3.1 in"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         345,
+         312
+        ],
+        [
+         300,
+         250
+        ],
+        [
+         160,
+         250
+        ]
+       ],
+       "text": "SPARK PLUG"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         660,
+         340
+        ],
+        [
+         760,
+         300
+        ],
+        [
+         820,
+         300
+        ]
+       ],
+       "text": "CYL. HEAD (OHV)"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         675,
+         515
+        ],
+        [
+         760,
+         490
+        ],
+        [
+         820,
+         490
+        ]
+       ],
+       "text": "COOLING FINS"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         745,
+         700
+        ],
+        [
+         800,
+         640
+        ],
+        [
+         850,
+         640
+        ]
+       ],
+       "text": "CRANKCASE"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         558,
+         790
+        ],
+        [
+         640,
+         840
+        ],
+        [
+         700,
+         840
+        ]
+       ],
+       "text": "OUTPUT SHAFT 3/4 in"
+      },
+      {
+       "t": "callout",
+       "x": 330,
+       "y": 270,
+       "n": 1
+      },
+      {
+       "t": "callout",
+       "x": 700,
+       "y": 330,
+       "n": 2
+      },
+      {
+       "t": "callout",
+       "x": 700,
+       "y": 520,
+       "n": 3
+      },
+      {
+       "t": "callout",
+       "x": 780,
+       "y": 660,
+       "n": 4
+      },
+      {
+       "t": "callout",
+       "x": 600,
+       "y": 860,
+       "n": 5
+      }
+     ]
+    },
+    {
+     "type": "view",
+     "box": [
+      1230,
+      870,
+      1000,
+      830
+     ],
+     "title": "RIGHT VIEW",
+     "scale": 0.82,
+     "origin": [
+      0,
+      -105
+     ],
+     "elements": [
+      {
+       "t": "rect",
+       "x": 420,
+       "y": 650,
+       "w": 330,
+       "h": 250,
+       "rx": 30,
+       "sw": 5
+      },
+      {
+       "t": "rect",
+       "x": 380,
+       "y": 900,
+       "w": 420,
+       "h": 40,
+       "sw": 4
+      },
+      {
+       "t": "circle",
+       "x": 330,
+       "y": 640,
+       "r": 230,
+       "sw": 5
+      },
+      {
+       "t": "circle",
+       "x": 330,
+       "y": 640,
+       "r": 200,
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         520
+        ],
+        [
+         430,
+         520
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         542
+        ],
+        [
+         430,
+         542
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         564
+        ],
+        [
+         430,
+         564
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         586
+        ],
+        [
+         430,
+         586
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         608
+        ],
+        [
+         430,
+         608
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         630
+        ],
+        [
+         430,
+         630
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         652
+        ],
+        [
+         430,
+         652
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         674
+        ],
+        [
+         430,
+         674
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         696
+        ],
+        [
+         430,
+         696
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         718
+        ],
+        [
+         430,
+         718
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         740
+        ],
+        [
+         430,
+         740
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         230,
+         762
+        ],
+        [
+         430,
+         762
+        ]
+       ],
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "rect",
+       "x": 300,
+       "y": 420,
+       "w": 60,
+       "h": 40,
+       "rx": 10,
+       "sw": 3
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         330,
+         460
+        ],
+        [
+         330,
+         520
+        ]
+       ],
+       "sw": 3
+      },
+      {
+       "t": "rect",
+       "x": 520,
+       "y": 390,
+       "w": 200,
+       "h": 260,
+       "sw": 4
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         500,
+         410
+        ],
+        [
+         740,
+         410
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         500,
+         437
+        ],
+        [
+         740,
+         437
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         500,
+         464
+        ],
+        [
+         740,
+         464
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         500,
+         491
+        ],
+        [
+         740,
+         491
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         500,
+         518
+        ],
+        [
+         740,
+         518
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         500,
+         545
+        ],
+        [
+         740,
+         545
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         500,
+         572
+        ],
+        [
+         740,
+         572
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         500,
+         599
+        ],
+        [
+         740,
+         599
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         500,
+         626
+        ],
+        [
+         740,
+         626
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "rect",
+       "x": 500,
+       "y": 310,
+       "w": 240,
+       "h": 80,
+       "rx": 8,
+       "sw": 4
+      },
+      {
+       "t": "rect",
+       "x": 740,
+       "y": 330,
+       "w": 180,
+       "h": 150,
+       "rx": 10,
+       "sw": 3
+      },
+      {
+       "t": "text",
+       "x": 830,
+       "y": 412,
+       "text": "AIR CLEANER",
+       "size": 18,
+       "anchor": "mm"
+      },
+      {
+       "t": "hatch",
+       "x": 750,
+       "y": 520,
+       "w": 160,
+       "h": 110,
+       "spacing": 14,
+       "angle": 60
+      },
+      {
+       "t": "text",
+       "x": 830,
+       "y": 660,
+       "text": "MUFFLER GUARD",
+       "size": 18,
+       "anchor": "mm"
+      },
+      {
+       "t": "rect",
+       "x": 750,
+       "y": 757,
+       "w": 160,
+       "h": 46,
+       "sw": 4
+      },
+      {
+       "t": "centerline",
+       "p1": [
+        80,
+        780
+       ],
+       "p2": [
+        960,
+        780
+       ]
+      },
+      {
+       "t": "dim",
+       "p1": [
+        750,
+        803
+       ],
+       "p2": [
+        910,
+        803
+       ],
+       "offset": -90,
+       "text": "2.4 in"
+      },
+      {
+       "t": "diameter",
+       "c": [
+        330,
+        640
+       ],
+       "r": 230,
+       "angle": -140,
+       "text": "FLYWHEEL SHROUD"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         330,
+         440
+        ],
+        [
+         220,
+         370
+        ],
+        [
+         120,
+         370
+        ]
+       ],
+       "text": "RECOIL START"
+      },
+      {
+       "t": "callout",
+       "x": 150,
+       "y": 330,
+       "n": 6
+      },
+      {
+       "t": "callout",
+       "x": 960,
+       "y": 360,
+       "n": 7
+      },
+      {
+       "t": "callout",
+       "x": 960,
+       "y": 620,
+       "n": 8
+      }
+     ]
+    },
+    {
+     "type": "view",
+     "box": [
+      1230,
+      250,
+      1000,
+      600
+     ],
+     "title": "PROJECTION / ALIGNMENT",
+     "frame": true,
+     "elements": [
+      {
+       "t": "projsym",
+       "x": 330,
+       "y": 250,
+       "size": 1.6
+      },
+      {
+       "t": "text",
+       "x": 60,
+       "y": 440,
+       "text": "Views are aligned: top above front, right",
+       "size": 20
+      },
+      {
+       "t": "text",
+       "x": 60,
+       "y": 475,
+       "text": "view beside front. Same scale on all views.",
+       "size": 20
+      },
+      {
+       "t": "text",
+       "x": 60,
+       "y": 520,
+       "text": "Dashed = hidden  \u00b7  dash-dot = centerline",
+       "size": 20,
+       "style": "dim"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "box": [
+      2260,
+      250,
+      940,
+      1060
+     ],
+     "title": "BUILD DIMENSIONS (REF)",
+     "columns": [
+      "DIMENSION",
+      "VALUE"
+     ],
+     "col_x": [
+      0,
+      520
+     ],
+     "rows": [
+      [
+       "Overall length (L)",
+       "15.6 in"
+      ],
+      [
+       "Overall width (W)",
+       "14.4 in (incl. PTO shaft)"
+      ],
+      [
+       "Overall height (H)",
+       "13.4 in"
+      ],
+      [
+       "Shaft CL above base",
+       "3.1 in"
+      ],
+      [
+       "Shaft dia. / length",
+       "3/4 in x 2.4 in"
+      ],
+      [
+       "Keyway",
+       "3/16 in"
+      ],
+      [
+       "Mount bolt pattern",
+       "6.1 x 3.6 in (REF)"
+      ],
+      [
+       "Mount bolt size",
+       "5/16-24 (typ.)"
+      ],
+      [
+       "Dry weight",
+       "~35 lb (typ.)"
+      ],
+      [
+       "Clearance - rear",
+       "3 in min (cooling)"
+      ]
+     ],
+     "footnotes": [
+      "Typical 212cc-class values -",
+      "measure your engine before fab work."
+     ]
+    },
+    {
+     "type": "notes",
+     "box": [
+      2260,
+      1330,
+      940,
+      370
+     ],
+     "title": "NOTES",
+     "lines": [
+      "1. THIRD-ANGLE PROJECTION.",
+      "2. ALL VIEWS SAME SCALE (~1:2).",
+      "3. REF DIMS - VERIFY BEFORE",
+      "   BUILDING MOUNTS OR GUARDS."
+     ]
+    },
+    {
+     "type": "legend",
+     "box": [
+      100,
+      1720,
+      1500,
+      430
+     ],
+     "title": "LEGEND",
+     "items": [
+      {
+       "kind": "line",
+       "label": "VISIBLE OUTLINE"
+      },
+      {
+       "kind": "hidden",
+       "label": "HIDDEN EDGE"
+      },
+      {
+       "kind": "center",
+       "label": "CENTERLINE"
+      },
+      {
+       "kind": "dim",
+       "label": "DIMENSION"
+      },
+      {
+       "kind": "hatch",
+       "label": "SECTIONED / GUARD"
+      },
+      {
+       "kind": "callout",
+       "label": "CALLOUT (SEE MANUAL)"
+      },
+      {
+       "kind": "blank",
+       "label": "OPTION / ACCESSORY"
+      }
+     ],
+     "row_h": 44
+    }
+   ]
+  },
+  {
+   "title": "ISOMETRIC VIEW \u00b7 GENERAL ARRANGEMENT",
+   "subtitle": "TRUE ISOMETRIC (30 DEG), SHADED FACES, OVERALL DIMENSIONS AND COMPONENT CALLOUTS 1-8",
+   "block_title": "212cc OHV ENGINE - ISOMETRIC",
+   "panels": [
+    {
+     "type": "view",
+     "box": [
+      100,
+      250,
+      2130,
+      1440
+     ],
+     "title": "ISOMETRIC - VIEWED FROM FRONT-RIGHT-ABOVE",
+     "elements": [
+      {
+       "t": "iso",
+       "model": "model.json"
+      }
+     ],
+     "caption": "ISOMETRIC \u00b7 NOT TO SCALE FOR MEASUREMENT - USE MULTI-VIEW DIMENSIONS"
+    },
+    {
+     "type": "specs",
+     "box": [
+      2260,
+      250,
+      940,
+      760
+     ],
+     "title": "PRINCIPAL DATA (TYPICAL)",
+     "columns": [
+      "ITEM",
+      "VALUE"
+     ],
+     "col_x": [
+      0,
+      380
+     ],
+     "rows": [
+      [
+       "Type",
+       "OHV, 4-stroke, 1 cyl"
+      ],
+      [
+       "Displacement",
+       "212 cc"
+      ],
+      [
+       "Bore x stroke",
+       "70 x 55 mm"
+      ],
+      [
+       "Cooling",
+       "Forced air (flywheel)"
+      ],
+      [
+       "Ignition",
+       "Transistorized magneto"
+      ],
+      [
+       "Starting",
+       "Recoil"
+      ],
+      [
+       "Output shaft",
+       "3/4 in keyed"
+      ],
+      [
+       "Oil capacity",
+       "~0.6 qt (check manual)"
+      ],
+      [
+       "Fuel",
+       "Unleaded 87+"
+      ],
+      [
+       "Spark plug gap",
+       "0.028-0.031 in (typ.)"
+      ],
+      [
+       "Valve lash",
+       "Check maker spec"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "box": [
+      2260,
+      1030,
+      940,
+      660
+     ],
+     "title": "CALLOUT KEY",
+     "size": 21,
+     "line_h": 42,
+     "lines": [
+      "1  SPARK PLUG",
+      "2  CYLINDER HEAD / VALVE COVER",
+      "3  CYLINDER + COOLING FINS",
+      "4  CRANKCASE",
+      "5  OUTPUT SHAFT (PTO)",
+      "6  RECOIL / FLYWHEEL SHROUD",
+      "7  AIR CLEANER",
+      "8  MUFFLER + GUARD"
+     ]
+    },
+    {
+     "type": "revisions",
+     "box": [
+      100,
+      1710,
+      1500,
+      440
+     ],
+     "title": "REVISIONS",
+     "rows": [
+      [
+       "A",
+       "08 NOV 2026",
+       "INITIAL RELEASE",
+       "A.EXAMPLE"
+      ]
+     ],
+     "sources": [
+      "SOURCES: maker owner's manual,",
+      "service manual, parts diagram.",
+      "(Example - replace with real",
+      "sources for your engine.)"
+     ],
+     "verify": "VERIFY SPECS ON YOUR UNIT."
+    }
+   ]
+  },
+  {
+   "title": "SECTION A-A & PARTS LIST",
+   "subtitle": "INTERNAL ARRANGEMENT, MAIN PARTS, TORQUE & SERVICE DATA - EXAMPLE SHEET",
+   "block_title": "212cc OHV ENGINE - SECTION A-A & PARTS",
+   "panels": [
+    {
+     "type": "view",
+     "box": [
+      100,
+      260,
+      1150,
+      1420
+     ],
+     "title": "SECTION A-A (FROM SHEET 1)",
+     "origin": [
+      60,
+      300
+     ],
+     "elements": [
+      {
+       "t": "hatch",
+       "x": 300,
+       "y": 200,
+       "w": 50,
+       "h": 380,
+       "angle": 45
+      },
+      {
+       "t": "hatch",
+       "x": 650,
+       "y": 200,
+       "w": 50,
+       "h": 380,
+       "angle": 45
+      },
+      {
+       "t": "hatch",
+       "x": 280,
+       "y": 110,
+       "w": 440,
+       "h": 90,
+       "angle": 45
+      },
+      {
+       "t": "rect",
+       "x": 355,
+       "y": 300,
+       "w": 290,
+       "h": 150,
+       "sw": 4
+      },
+      {
+       "t": "hatch",
+       "x": 355,
+       "y": 300,
+       "w": 290,
+       "h": 150,
+       "angle": -45,
+       "spacing": 20
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         355,
+         318
+        ],
+        [
+         645,
+         318
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         355,
+         332
+        ],
+        [
+         645,
+         332
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         355,
+         346
+        ],
+        [
+         645,
+         346
+        ]
+       ],
+       "sw": 2
+      },
+      {
+       "t": "circle",
+       "x": 500,
+       "y": 400,
+       "r": 24,
+       "sw": 3
+      },
+      {
+       "t": "polygon",
+       "pts": [
+        [
+         480,
+         400
+        ],
+        [
+         520,
+         400
+        ],
+        [
+         545,
+         690
+        ],
+        [
+         455,
+         690
+        ]
+       ],
+       "sw": 4
+      },
+      {
+       "t": "circle",
+       "x": 500,
+       "y": 700,
+       "r": 60,
+       "sw": 4
+      },
+      {
+       "t": "circle",
+       "x": 500,
+       "y": 760,
+       "r": 120,
+       "style": "dim",
+       "sw": 2
+      },
+      {
+       "t": "hatch",
+       "pts": [
+        [
+         250,
+         600
+        ],
+        [
+         750,
+         600
+        ],
+        [
+         780,
+         880
+        ],
+        [
+         220,
+         880
+        ]
+       ],
+       "angle": 30,
+       "spacing": 26
+      },
+      {
+       "t": "circle",
+       "x": 500,
+       "y": 760,
+       "r": 130,
+       "sw": 3
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         420,
+         110
+        ],
+        [
+         420,
+         40
+        ]
+       ],
+       "sw": 4
+      },
+      {
+       "t": "line",
+       "pts": [
+        [
+         580,
+         110
+        ],
+        [
+         580,
+         40
+        ]
+       ],
+       "sw": 4
+      },
+      {
+       "t": "spring",
+       "p1": [
+        420,
+        40
+       ],
+       "p2": [
+        420,
+        -60
+       ],
+       "coils": 6,
+       "width": 22
+      },
+      {
+       "t": "spring",
+       "p1": [
+        580,
+        40
+       ],
+       "p2": [
+        580,
+        -60
+       ],
+       "coils": 6,
+       "width": 22
+      },
+      {
+       "t": "centerline",
+       "p1": [
+        500,
+        -80
+       ],
+       "p2": [
+        500,
+        920
+       ]
+      },
+      {
+       "t": "gear",
+       "x": 860,
+       "y": 760,
+       "r": 95,
+       "teeth": 24
+      },
+      {
+       "t": "gear",
+       "x": 500,
+       "y": 920,
+       "r": 48,
+       "teeth": 12
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         440,
+         330
+        ],
+        [
+         260,
+         300
+        ],
+        [
+         230,
+         300
+        ]
+       ],
+       "text": "PISTON + RINGS"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         520,
+         560
+        ],
+        [
+         700,
+         520
+        ],
+        [
+         760,
+         520
+        ]
+       ],
+       "text": "CONNECTING ROD"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         420,
+         -20
+        ],
+        [
+         300,
+         -40
+        ],
+        [
+         230,
+         -40
+        ]
+       ],
+       "text": "VALVE SPRING"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         860,
+         665
+        ],
+        [
+         900,
+         600
+        ],
+        [
+         960,
+         600
+        ]
+       ],
+       "text": "CAM GEAR"
+      },
+      {
+       "t": "leader",
+       "pts": [
+        [
+         300,
+         450
+        ],
+        [
+         260,
+         460
+        ],
+        [
+         230,
+         460
+        ]
+       ],
+       "text": "CYL. BORE 70 mm"
+      },
+      {
+       "t": "dim",
+       "p1": [
+        355,
+        450
+       ],
+       "p2": [
+        645,
+        450
+       ],
+       "offset": -40,
+       "text": "BORE 70"
+      }
+     ],
+     "caption": "SECTION A-A"
+    },
+    {
+     "type": "table",
+     "box": [
+      1280,
+      260,
+      1900,
+      820
+     ],
+     "title": "PARTS LIST (BILL OF MATERIALS)",
+     "columns": [
+      "ITEM",
+      "DESCRIPTION",
+      "QTY",
+      "NOTE"
+     ],
+     "col_x": [
+      0,
+      110,
+      1150,
+      1290
+     ],
+     "rows": [
+      [
+       "1",
+       "Spark plug (F6RTC / BPR6ES class)",
+       "1",
+       "Gap per manual"
+      ],
+      [
+       "2",
+       "Cylinder head + gasket",
+       "1",
+       "Torque in sequence"
+      ],
+      [
+       "3",
+       "Piston + ring set (std)",
+       "1",
+       "Ring gaps staggered"
+      ],
+      [
+       "4",
+       "Connecting rod + cap bolts",
+       "1",
+       "Match marks"
+      ],
+      [
+       "5",
+       "Crankshaft, 3/4 in PTO",
+       "1",
+       "Key 3/16 in"
+      ],
+      [
+       "6",
+       "Camshaft / cam gear",
+       "1",
+       "Timing marks aligned"
+      ],
+      [
+       "7",
+       "Valve springs, intake/exhaust",
+       "2",
+       ""
+      ],
+      [
+       "8",
+       "Air filter element",
+       "1",
+       "Replace per schedule"
+      ],
+      [
+       "9",
+       "Recoil starter assy",
+       "1",
+       ""
+      ],
+      [
+       "10",
+       "Muffler + guard",
+       "1",
+       "Hot surface"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "box": [
+      1280,
+      1100,
+      1900,
+      580
+     ],
+     "title": "SERVICE SCHEDULE & TORQUE (TYPICAL - VERIFY)",
+     "columns": [
+      "TASK / FASTENER",
+      "INTERVAL / VALUE"
+     ],
+     "col_x": [
+      0,
+      900
+     ],
+     "rows": [
+      [
+       "Oil change (break-in)",
+       "First 5-8 h"
+      ],
+      [
+       "Oil change",
+       "Every 50 h / season"
+      ],
+      [
+       "Air filter clean",
+       "25 h; replace 100 h"
+      ],
+      [
+       "Spark plug",
+       "100 h"
+      ],
+      [
+       "Valve lash check",
+       "100-300 h"
+      ],
+      [
+       "Head bolts",
+       "Per service manual"
+      ],
+      [
+       "Flywheel nut",
+       "Per service manual"
+      ]
+     ]
+    },
+    {
+     "type": "legend",
+     "box": [
+      100,
+      1700,
+      1500,
+      450
+     ],
+     "title": "LEGEND",
+     "items": [
+      {
+       "kind": "hatch",
+       "label": "SECTIONED METAL"
+      },
+      {
+       "kind": "center",
+       "label": "CENTERLINE"
+      },
+      {
+       "kind": "callout",
+       "label": "CALLOUT"
+      },
+      {
+       "kind": "dim",
+       "label": "DIMENSION"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "ELECTRICAL SCHEMATIC \u00b7 IGNITION, STOP & ELECTRIC-START",
+   "subtitle": "STANDARD SCHEMATIC SYMBOLS - WIRE GAUGE / COLOUR LABELLED - TYPICAL 212cc CLASS, VERIFY COLOURS ON YOUR HARNESS",
+   "block_title": "212cc OHV ENGINE - ELECTRICAL SCHEMATIC",
+   "panels": [
+    {
+     "type": "view",
+     "box": [
+      100,
+      250,
+      1150,
+      1440
+     ],
+     "title": "SCHEMATIC",
+     "origin": [
+      40,
+      40
+     ],
+     "elements": [
+      {
+       "t": "text",
+       "x": 40,
+       "y": 40,
+       "text": "A. IGNITION & STOP CIRCUIT (ALL 212cc ENGINES)",
+       "size": 24,
+       "font": "head"
+      },
+      {
+       "t": "esym",
+       "kind": "transformer",
+       "x": 470,
+       "y": 250,
+       "ref": "T1",
+       "label": "IGNITION COIL (MAGNETO)",
+       "rot": 0
+      },
+      {
+       "t": "esym",
+       "kind": "spark_plug",
+       "x": 800,
+       "y": 220,
+       "ref": "SP1",
+       "label": "SPARK PLUG",
+       "rot": 0
+      },
+      {
+       "t": "esym",
+       "kind": "switch",
+       "x": 470,
+       "y": 470,
+       "ref": "S1",
+       "label": "ENGINE STOP SW (ON=OPEN)",
+       "rot": 0
+      },
+      {
+       "t": "esym",
+       "kind": "switch_nc",
+       "x": 800,
+       "y": 470,
+       "ref": "S2",
+       "label": "LOW-OIL SENSOR (CLOSES ON LOW OIL)",
+       "rot": 0
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         530,
+         236
+        ],
+        [
+         620,
+         236
+        ],
+        [
+         620,
+         180
+        ],
+        [
+         740,
+         180
+        ]
+       ],
+       "label": "HT LEAD",
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         860,
+         220
+        ],
+        [
+         930,
+         220
+        ],
+        [
+         930,
+         600
+        ]
+       ],
+       "label": "",
+       "dots": [],
+       "style": "line"
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         410,
+         264
+        ],
+        [
+         350,
+         264
+        ],
+        [
+         350,
+         380
+        ],
+        [
+         620,
+         380
+        ],
+        [
+         620,
+         264
+        ],
+        [
+         530,
+         264
+        ]
+       ],
+       "label": "PRIMARY (KILL) - BLK",
+       "dots": [
+        [
+         350,
+         380
+        ],
+        [
+         620,
+         380
+        ]
+       ],
+       "label_seg": 2
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         350,
+         380
+        ],
+        [
+         350,
+         470
+        ],
+        [
+         410,
+         470
+        ]
+       ],
+       "label": null,
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         530,
+         470
+        ],
+        [
+         600,
+         470
+        ],
+        [
+         600,
+         600
+        ]
+       ],
+       "label": null,
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         620,
+         380
+        ],
+        [
+         680,
+         380
+        ],
+        [
+         680,
+         470
+        ],
+        [
+         740,
+         470
+        ]
+       ],
+       "label": null,
+       "dots": [
+        [
+         680,
+         470
+        ]
+       ]
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         860,
+         470
+        ],
+        [
+         900,
+         470
+        ],
+        [
+         900,
+         600
+        ]
+       ],
+       "label": null,
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         600,
+         600
+        ],
+        [
+         930,
+         600
+        ]
+       ],
+       "label": "ENGINE GROUND",
+       "dots": [
+        [
+         900,
+         600
+        ]
+       ]
+      },
+      {
+       "t": "esym",
+       "kind": "ground",
+       "x": 765,
+       "y": 640,
+       "ref": "",
+       "label": "",
+       "rot": 0,
+       "size": 80
+      },
+      {
+       "t": "esym",
+       "kind": "generator",
+       "x": 170,
+       "y": 250,
+       "ref": "G1",
+       "label": "FLYWHEEL MAGNETS",
+       "label_dy2": 50
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         230,
+         250
+        ],
+        [
+         400,
+         250
+        ]
+       ],
+       "label": "magnetic coupling",
+       "style": "dim"
+      },
+      {
+       "t": "text",
+       "x": 40,
+       "y": 730,
+       "text": "B. ELECTRIC-START OPTION (IF EQUIPPED / RETROFIT)",
+       "size": 24,
+       "font": "head"
+      },
+      {
+       "t": "esym",
+       "kind": "battery",
+       "x": 120,
+       "y": 900,
+       "ref": "BT1",
+       "label": "12V BATTERY",
+       "rot": 90
+      },
+      {
+       "t": "esym",
+       "kind": "fuse",
+       "x": 330,
+       "y": 840,
+       "ref": "F1",
+       "label": "FUSE 15A",
+       "rot": 0
+      },
+      {
+       "t": "esym",
+       "kind": "key_switch",
+       "x": 600,
+       "y": 840,
+       "ref": "S3",
+       "label": "KEY SW (START)",
+       "rot": 0,
+       "label_dy": 66
+      },
+      {
+       "t": "esym",
+       "kind": "relay",
+       "x": 600,
+       "y": 1040,
+       "ref": "K1",
+       "label": "STARTER SOLENOID",
+       "rot": 0,
+       "label_dy": 100
+      },
+      {
+       "t": "esym",
+       "kind": "motor",
+       "x": 900,
+       "y": 1060,
+       "ref": "M1",
+       "label": "STARTER",
+       "rot": 90
+      },
+      {
+       "t": "esym",
+       "kind": "coil",
+       "x": 330,
+       "y": 1260,
+       "ref": "L1",
+       "label": "CHARGE COIL",
+       "rot": 0
+      },
+      {
+       "t": "esym",
+       "kind": "diode",
+       "x": 600,
+       "y": 1260,
+       "ref": "D1",
+       "label": "RECTIFIER",
+       "rot": 0
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         120,
+         840
+        ],
+        [
+         270,
+         840
+        ]
+       ],
+       "label": "10 AWG RED",
+       "dots": [
+        [
+         120,
+         840
+        ]
+       ]
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         390,
+         840
+        ],
+        [
+         540,
+         840
+        ]
+       ],
+       "label": "18 AWG RED",
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         660,
+         840
+        ],
+        [
+         760,
+         840
+        ],
+        [
+         760,
+         1040
+        ],
+        [
+         660,
+         1040
+        ]
+       ],
+       "label": "18 AWG YEL",
+       "dots": [],
+       "label_seg": 1
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         120,
+         840
+        ],
+        [
+         120,
+         780
+        ],
+        [
+         500,
+         780
+        ]
+       ],
+       "label": "8 AWG RED",
+       "label_seg": 1,
+       "dots": [
+        [
+         120,
+         840
+        ],
+        [
+         500,
+         780
+        ]
+       ]
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         500,
+         780
+        ],
+        [
+         1020,
+         780
+        ]
+       ],
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         500,
+         780
+        ],
+        [
+         500,
+         980
+        ],
+        [
+         540,
+         980
+        ]
+       ],
+       "label": null,
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         660,
+         980
+        ],
+        [
+         900,
+         980
+        ],
+        [
+         900,
+         1000
+        ]
+       ],
+       "label": null,
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         540,
+         1040
+        ],
+        [
+         480,
+         1040
+        ],
+        [
+         480,
+         1160
+        ]
+       ],
+       "label": null,
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         900,
+         1120
+        ],
+        [
+         900,
+         1160
+        ]
+       ],
+       "label": null,
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         120,
+         960
+        ],
+        [
+         120,
+         1160
+        ],
+        [
+         900,
+         1160
+        ]
+       ],
+       "label": "GND BUS (BLK)",
+       "dots": [
+        [
+         480,
+         1160
+        ],
+        [
+         200,
+         1160
+        ]
+       ],
+       "label_seg": 1
+      },
+      {
+       "t": "esym",
+       "kind": "ground",
+       "x": 510,
+       "y": 1200,
+       "ref": "",
+       "label": "",
+       "rot": 0,
+       "size": 80
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         270,
+         1260
+        ],
+        [
+         200,
+         1260
+        ],
+        [
+         200,
+         1160
+        ]
+       ],
+       "label": null,
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         390,
+         1260
+        ],
+        [
+         540,
+         1260
+        ]
+       ],
+       "label": null,
+       "dots": []
+      },
+      {
+       "t": "wire",
+       "pts": [
+        [
+         660,
+         1260
+        ],
+        [
+         1020,
+         1260
+        ],
+        [
+         1020,
+         780
+        ]
+       ],
+       "label": "14 AWG RED (CHARGE)",
+       "dots": [],
+       "style": "dim"
+      },
+      {
+       "t": "text",
+       "x": 40,
+       "y": 1370,
+       "text": "Light-blue = optional / not fitted on recoil-only units",
+       "size": 18,
+       "style": "dim"
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "box": [
+      1280,
+      250,
+      1920,
+      880
+     ],
+     "title": "WIRE / CONNECTION TABLE",
+     "columns": [
+      "WIRE",
+      "FROM",
+      "TO",
+      "GAUGE / COLOUR",
+      "NOTE"
+     ],
+     "col_x": [
+      0,
+      110,
+      530,
+      950,
+      1380
+     ],
+     "size": 20,
+     "rows": [
+      [
+       "W1",
+       "T1 secondary",
+       "SP1 (plug)",
+       "HT lead",
+       "Molded boot"
+      ],
+      [
+       "W2",
+       "T1 primary",
+       "S1 stop switch",
+       "18 BLK",
+       "ON = open"
+      ],
+      [
+       "W3",
+       "T1 primary",
+       "S2 oil sensor",
+       "18 BLK",
+       "Grounds on low oil"
+      ],
+      [
+       "W4",
+       "S1 / S2",
+       "Engine ground",
+       "18 BLK",
+       "Clean bare metal"
+      ],
+      [
+       "W5",
+       "BT1 +",
+       "F1",
+       "10 RED",
+       "At battery"
+      ],
+      [
+       "W6",
+       "F1",
+       "S3 key BAT",
+       "18 RED",
+       ""
+      ],
+      [
+       "W7",
+       "S3 START",
+       "K1 coil",
+       "18 YEL",
+       ""
+      ],
+      [
+       "W8",
+       "BT1 +",
+       "K1 contact",
+       "8 RED",
+       "Cranking current"
+      ],
+      [
+       "W9",
+       "K1 contact",
+       "M1 starter",
+       "8 RED",
+       ""
+      ],
+      [
+       "W10",
+       "L1 / D1",
+       "BT1 +",
+       "14 RED",
+       "Charging (opt.)"
+      ]
+     ]
+    },
+    {
+     "type": "legend",
+     "box": [
+      1280,
+      1150,
+      940,
+      540
+     ],
+     "title": "SYMBOL KEY",
+     "items": [
+      {
+       "kind": "line",
+       "label": "WIRE / CONDUCTOR"
+      },
+      {
+       "kind": "dim",
+       "label": "MAGNETIC COUPLING"
+      },
+      {
+       "kind": "callout",
+       "label": "REF DESIGNATOR (T1, S1...)"
+      },
+      {
+       "kind": "red",
+       "label": "HIGH VOLTAGE / BATTERY +"
+      }
+     ],
+     "size": 21
+    },
+    {
+     "type": "notes",
+     "box": [
+      2240,
+      1150,
+      960,
+      540
+     ],
+     "title": "ELECTRICAL NOTES",
+     "size": 20,
+     "lines": [
+      "1. STOP CIRCUIT GROUNDS THE COIL",
+      "   PRIMARY - OPEN = RUN.",
+      "2. NO SPARK: UNPLUG W2/W3, RETEST.",
+      "3. COIL AIR GAP ~0.010-0.016 in",
+      "   (TYP. - VERIFY).",
+      "4. BATTERY NEG OFF BEFORE WORK.",
+      "5. FUSE AT THE BATTERY END."
+     ]
+    },
+    {
+     "type": "view",
+     "box": [
+      100,
+      1710,
+      1500,
+      440
+     ],
+     "title": "LEGEND - ESYM KINDS USED",
+     "frame": true,
+     "elements": [
+      {
+       "t": "esym",
+       "kind": "battery",
+       "x": 110,
+       "y": 150,
+       "size": 100,
+       "label": "BATTERY"
+      },
+      {
+       "t": "esym",
+       "kind": "fuse",
+       "x": 310,
+       "y": 150,
+       "size": 100,
+       "label": "FUSE"
+      },
+      {
+       "t": "esym",
+       "kind": "switch",
+       "x": 510,
+       "y": 150,
+       "size": 100,
+       "label": "SWITCH"
+      },
+      {
+       "t": "esym",
+       "kind": "relay",
+       "x": 730,
+       "y": 180,
+       "size": 100,
+       "label": "RELAY"
+      },
+      {
+       "t": "esym",
+       "kind": "motor",
+       "x": 950,
+       "y": 150,
+       "size": 100,
+       "label": "MOTOR"
+      },
+      {
+       "t": "esym",
+       "kind": "diode",
+       "x": 1150,
+       "y": 150,
+       "size": 100,
+       "label": "DIODE"
+      },
+      {
+       "t": "esym",
+       "kind": "transformer",
+       "x": 1350,
+       "y": 150,
+       "size": 100,
+       "label": "COIL"
+      },
+      {
+       "t": "esym",
+       "kind": "ground",
+       "x": 110,
+       "y": 330,
+       "size": 60,
+       "label": ""
+      },
+      {
+       "t": "text",
+       "x": 160,
+       "y": 345,
+       "text": "GROUND",
+       "size": 17
+      },
+      {
+       "t": "esym",
+       "kind": "spark_plug",
+       "x": 360,
+       "y": 320,
+       "size": 100,
+       "label": "SPARK PLUG"
+      },
+      {
+       "t": "esym",
+       "kind": "lamp",
+       "x": 560,
+       "y": 320,
+       "size": 100,
+       "label": "LAMP"
+      },
+      {
+       "t": "esym",
+       "kind": "resistor",
+       "x": 760,
+       "y": 320,
+       "size": 100,
+       "label": "RESISTOR"
+      },
+      {
+       "t": "esym",
+       "kind": "capacitor",
+       "x": 960,
+       "y": 320,
+       "size": 100,
+       "label": "CAPACITOR"
+      },
+      {
+       "t": "esym",
+       "kind": "coil",
+       "x": 1160,
+       "y": 320,
+       "size": 100,
+       "label": "COIL / WINDING"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "VERSIONS & OPTIONS MATRIX",
+   "subtitle": "EVERY VERSION THE MAKER OFFERS, WITH ITS MODEL NUMBER - S = STANDARD, O = OPTIONAL",
+   "block_title": "212cc OHV ENGINE - VERSIONS & OPTIONS",
+   "panels": [
+    {
+     "type": "matrix",
+     "box": [
+      100,
+      250,
+      2100,
+      1440
+     ],
+     "title": "VERSION / OPTION MATRIX",
+     "source": "tiers.json",
+     "size": 24
+    },
+    {
+     "type": "notes",
+     "box": [
+      2230,
+      250,
+      970,
+      1440
+     ],
+     "title": "NOTES",
+     "size": 21,
+     "lines": [
+      "1. TIER NAMES ARE THE MAKER'S OWN",
+      "   (HERE: 'VERSION').",
+      "2. MODEL NUMBER SHOWN UNDER",
+      "   EACH VERSION.",
+      "3. OPTION CODES IN [ ].",
+      "4. VERIFY BY SERIAL NUMBER."
+     ]
+    }
+   ]
+  }
+ ]
+}

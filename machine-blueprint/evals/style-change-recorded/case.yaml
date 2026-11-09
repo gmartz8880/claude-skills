@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: style-change-recorded
+expected_outcome: |
+  Applies the change, re-renders, and adds dated lines to references/style-preferences.md recording bigger titles and coffee stains.

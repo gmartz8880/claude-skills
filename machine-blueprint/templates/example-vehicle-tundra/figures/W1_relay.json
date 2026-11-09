@@ -1,0 +1,282 @@
+{
+ "title": "FIG W-1  ACCESSORY RELAY CIRCUIT (BLANK-SLOT SWITCH)",
+ "w": 1500,
+ "h": 760,
+ "boxes": [
+  {
+   "x": 50,
+   "y": 110,
+   "w": 220,
+   "h": 100,
+   "label": "BATTERY +",
+   "sub": "12 V",
+   "style": "red"
+  },
+  {
+   "x": 330,
+   "y": 110,
+   "w": 200,
+   "h": 100,
+   "label": "FUSE",
+   "sub": "size to wire",
+   "style": "red"
+  },
+  {
+   "x": 640,
+   "y": 100,
+   "w": 260,
+   "h": 260,
+   "label": "30A RELAY",
+   "sub": "Bosch SPST"
+  },
+  {
+   "x": 1080,
+   "y": 120,
+   "w": 320,
+   "h": 110,
+   "label": "LOAD",
+   "sub": "lights / accessory",
+   "style": "blank"
+  },
+  {
+   "x": 50,
+   "y": 420,
+   "w": 270,
+   "h": 110,
+   "label": "ADD-A-FUSE",
+   "sub": "IG circuit, cab box",
+   "style": "blank"
+  },
+  {
+   "x": 420,
+   "y": 420,
+   "w": 230,
+   "h": 110,
+   "label": "DASH SWITCH",
+   "sub": "in factory blank"
+  }
+ ],
+ "wires": [
+  {
+   "pts": [
+    [
+     270,
+     160
+    ],
+    [
+     330,
+     160
+    ]
+   ],
+   "style": "red"
+  },
+  {
+   "pts": [
+    [
+     530,
+     160
+    ],
+    [
+     640,
+     160
+    ]
+   ],
+   "style": "red",
+   "label": "10-12 AWG",
+   "lx": 540,
+   "ly": 148
+  },
+  {
+   "pts": [
+    [
+     900,
+     320
+    ],
+    [
+     990,
+     320
+    ],
+    [
+     990,
+     175
+    ],
+    [
+     1080,
+     175
+    ]
+   ],
+   "style": "red",
+   "label": "87 -> load +",
+   "lx": 1000,
+   "ly": 300
+  },
+  {
+   "pts": [
+    [
+     1240,
+     230
+    ],
+    [
+     1240,
+     290
+    ]
+   ],
+   "style": "dim"
+  },
+  {
+   "pts": [
+    [
+     320,
+     475
+    ],
+    [
+     420,
+     475
+    ]
+   ],
+   "style": "blank",
+   "label": "18 AWG",
+   "lx": 325,
+   "ly": 462
+  },
+  {
+   "pts": [
+    [
+     650,
+     475
+    ],
+    [
+     700,
+     475
+    ],
+    [
+     700,
+     360
+    ]
+   ],
+   "style": "blank"
+  },
+  {
+   "pts": [
+    [
+     840,
+     360
+    ],
+    [
+     840,
+     460
+    ]
+   ],
+   "style": "dim"
+  },
+  {
+   "pts": [
+    [
+     535,
+     530
+    ],
+    [
+     535,
+     590
+    ]
+   ],
+   "style": "dim"
+  },
+  {
+   "pts": [
+    [
+     470,
+     530
+    ],
+    [
+     470,
+     630
+    ],
+    [
+     260,
+     630
+    ]
+   ],
+   "style": [
+    201,
+    162,
+    255
+   ]
+  }
+ ],
+ "grounds": [
+  [
+   1240,
+   290
+  ],
+  [
+   840,
+   460
+  ],
+  [
+   535,
+   590
+  ]
+ ],
+ "texts": [
+  {
+   "x": 652,
+   "y": 150,
+   "text": "30",
+   "style": "blank",
+   "size": 22
+  },
+  {
+   "x": 652,
+   "y": 250,
+   "text": "86",
+   "style": "blank",
+   "size": 22
+  },
+  {
+   "x": 820,
+   "y": 330,
+   "text": "85",
+   "style": "blank",
+   "size": 22
+  },
+  {
+   "x": 855,
+   "y": 250,
+   "text": "87",
+   "style": "blank",
+   "size": 22
+  },
+  {
+   "x": 712,
+   "y": 405,
+   "text": "switch -> 86 (coil +)",
+   "style": "blank"
+  },
+  {
+   "x": 855,
+   "y": 430,
+   "text": "85 -> ground",
+   "style": "dim"
+  },
+  {
+   "x": 550,
+   "y": 575,
+   "text": "switch ground",
+   "style": "dim"
+  },
+  {
+   "x": 60,
+   "y": 620,
+   "text": "ILL+ (dash dimmer feed)",
+   "style": [
+    201,
+    162,
+    255
+   ]
+  }
+ ],
+ "notes": [
+  "Ignition-switched: cannot drain the battery. Relay carries the load; dash switch only the coil (~0.15 A)."
+ ]
+}

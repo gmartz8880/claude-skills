@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: whole-vehicle-every-trim
+expected_outcome: |
+  PDF-only package: key sheet, multi-view with dimensions, isometric, electrical, a matrix with Ford's own trim names (XL, XLT, Lariat, King Ranch, Platinum, Limited, Raptor/Tremor as applicable) and package codes, model numbers everywhere, manual PDF.

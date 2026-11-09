@@ -79,6 +79,7 @@ To update later: `git pull` in the clone and copy the folders again.
 | Skill | What it needs |
 |---|---|
 | sds-bible, humanize-ai-text, assignment-completion, sru-research | Make Word/PDF files. Claude.ai has the libraries built in. In Claude Code, have Python with `python-docx` and `reportlab` (`pip install python-docx reportlab`). |
+| machine-blueprint | Python with `pillow`, `numpy`, `reportlab` (`python scripts/setup_env.py` installs them). Optional for CAD files: `ezdxf`, `cadquery`, FreeCAD. |
 | sru-research, assignment-completion | JSTOR through a school library is optional. Without it, they use Google Scholar and the other search engines. Library sign-ins work best with the Claude in Chrome extension. |
 | ti-calc-app-builder | Claude Code only for building real calculator files. Run `python ~/.claude/skills/ti-calc-app-builder/scripts/setup_env.py` once. |
 | skill-forge | Works anywhere. Its scripts (validate, package, install) work best in Claude Code. |

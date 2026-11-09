@@ -1,0 +1,177 @@
+{
+ "title": "FIG W-2  AFTERMARKET HEATED-SEAT KIT (PER SEAT)",
+ "w": 1500,
+ "h": 760,
+ "boxes": [
+  {
+   "x": 40,
+   "y": 110,
+   "w": 250,
+   "h": 100,
+   "label": "FUSE TAP",
+   "sub": "IG circuit · 15 A",
+   "style": "red"
+  },
+  {
+   "x": 380,
+   "y": 100,
+   "w": 280,
+   "h": 120,
+   "label": "SEAT RELAY",
+   "sub": "supplied in kit"
+  },
+  {
+   "x": 380,
+   "y": 320,
+   "w": 280,
+   "h": 110,
+   "label": "HI/LO SWITCH",
+   "sub": "in blank 3 / 4",
+   "style": "blank"
+  },
+  {
+   "x": 770,
+   "y": 90,
+   "w": 320,
+   "h": 120,
+   "label": "CUSHION PAD",
+   "sub": "carbon-fiber",
+   "style": "blank"
+  },
+  {
+   "x": 770,
+   "y": 260,
+   "w": 320,
+   "h": 120,
+   "label": "BACK PAD",
+   "sub": "carbon-fiber",
+   "style": "blank"
+  },
+  {
+   "x": 1170,
+   "y": 170,
+   "w": 280,
+   "h": 110,
+   "label": "THERMOSTAT",
+   "sub": "built into pad",
+   "style": "dim"
+  }
+ ],
+ "wires": [
+  {
+   "pts": [
+    [
+     290,
+     160
+    ],
+    [
+     380,
+     160
+    ]
+   ],
+   "style": "red"
+  },
+  {
+   "pts": [
+    [
+     660,
+     160
+    ],
+    [
+     770,
+     150
+    ]
+   ],
+   "style": "red",
+   "label": "relay out",
+   "lx": 668,
+   "ly": 140
+  },
+  {
+   "pts": [
+    [
+     520,
+     220
+    ],
+    [
+     520,
+     320
+    ]
+   ],
+   "style": "blank",
+   "label": "hi/lo",
+   "lx": 532,
+   "ly": 280
+  },
+  {
+   "pts": [
+    [
+     1090,
+     150
+    ],
+    [
+     1170,
+     210
+    ]
+   ],
+   "style": "blank"
+  },
+  {
+   "pts": [
+    [
+     1090,
+     320
+    ],
+    [
+     1170,
+     250
+    ]
+   ],
+   "style": "blank"
+  },
+  {
+   "pts": [
+    [
+     1310,
+     280
+    ],
+    [
+     1310,
+     440
+    ]
+   ],
+   "style": "dim"
+  },
+  {
+   "pts": [
+    [
+     520,
+     430
+    ],
+    [
+     520,
+     490
+    ]
+   ],
+   "style": "dim"
+  }
+ ],
+ "grounds": [
+  [
+   1310,
+   440
+  ],
+  [
+   520,
+   490
+  ]
+ ],
+ "notes": [
+  [
+   "SRS: seat has airbag / occupant-sensor plugs - battery NEG off, wait 90 s, never probe yellow connectors.",
+   "red"
+  ],
+  "Pads go between foam and cover (hog rings). Keep clear of the belt buckle and passenger sensor mat.",
+  "Fit the kit switch in the factory blank: OEM-style switch, or step-drill the blank."
+ ]
+}

@@ -1,0 +1,240 @@
+{
+ "title": "FIG 1  FUEL, AIR & IGNITION FLOW (BLOCK DIAGRAM)",
+ "w": 1500,
+ "h": 760,
+ "boxes": [
+  {
+   "x": 40,
+   "y": 110,
+   "w": 220,
+   "h": 100,
+   "label": "FUEL TANK",
+   "sub": "gravity feed",
+   "style": "blank"
+  },
+  {
+   "x": 330,
+   "y": 110,
+   "w": 220,
+   "h": 100,
+   "label": "FUEL VALVE",
+   "sub": "on / off"
+  },
+  {
+   "x": 620,
+   "y": 110,
+   "w": 260,
+   "h": 100,
+   "label": "CARBURETOR",
+   "sub": "float + jets"
+  },
+  {
+   "x": 620,
+   "y": 300,
+   "w": 260,
+   "h": 100,
+   "label": "AIR CLEANER",
+   "sub": "foam / paper"
+  },
+  {
+   "x": 960,
+   "y": 110,
+   "w": 240,
+   "h": 100,
+   "label": "INTAKE VALVE",
+   "sub": "cam driven"
+  },
+  {
+   "x": 960,
+   "y": 300,
+   "w": 240,
+   "h": 100,
+   "label": "COMBUSTION",
+   "sub": "chamber",
+   "style": "red"
+  },
+  {
+   "x": 1260,
+   "y": 300,
+   "w": 200,
+   "h": 100,
+   "label": "EXHAUST",
+   "sub": "muffler"
+  },
+  {
+   "x": 960,
+   "y": 500,
+   "w": 240,
+   "h": 100,
+   "label": "SPARK PLUG",
+   "style": "blank"
+  },
+  {
+   "x": 620,
+   "y": 500,
+   "w": 260,
+   "h": 100,
+   "label": "IGNITION COIL",
+   "sub": "magneto"
+  },
+  {
+   "x": 330,
+   "y": 500,
+   "w": 220,
+   "h": 100,
+   "label": "FLYWHEEL",
+   "sub": "magnets"
+  },
+  {
+   "x": 40,
+   "y": 500,
+   "w": 220,
+   "h": 100,
+   "label": "STOP SWITCH",
+   "sub": "grounds coil",
+   "style": "dim"
+  }
+ ],
+ "wires": [
+  {
+   "pts": [
+    [
+     260,
+     160
+    ],
+    [
+     330,
+     160
+    ]
+   ],
+   "style": "blank"
+  },
+  {
+   "pts": [
+    [
+     550,
+     160
+    ],
+    [
+     620,
+     160
+    ]
+   ],
+   "style": "blank"
+  },
+  {
+   "pts": [
+    [
+     750,
+     300
+    ],
+    [
+     750,
+     210
+    ]
+   ],
+   "style": "line"
+  },
+  {
+   "pts": [
+    [
+     880,
+     160
+    ],
+    [
+     960,
+     160
+    ]
+   ],
+   "style": "line"
+  },
+  {
+   "pts": [
+    [
+     1080,
+     210
+    ],
+    [
+     1080,
+     300
+    ]
+   ],
+   "style": "line"
+  },
+  {
+   "pts": [
+    [
+     1200,
+     350
+    ],
+    [
+     1260,
+     350
+    ]
+   ],
+   "style": "dim"
+  },
+  {
+   "pts": [
+    [
+     550,
+     550
+    ],
+    [
+     620,
+     550
+    ]
+   ],
+   "style": "red"
+  },
+  {
+   "pts": [
+    [
+     880,
+     550
+    ],
+    [
+     960,
+     550
+    ]
+   ],
+   "style": "red"
+  },
+  {
+   "pts": [
+    [
+     1080,
+     500
+    ],
+    [
+     1080,
+     400
+    ]
+   ],
+   "style": "red"
+  },
+  {
+   "pts": [
+    [
+     260,
+     550
+    ],
+    [
+     330,
+     550
+    ]
+   ],
+   "style": "dim",
+   "label": "kill",
+   "lx": 270,
+   "ly": 540
+  }
+ ],
+ "notes": [
+  "Yellow = fuel path \u00b7 white = air \u00b7 red = ignition / combustion \u00b7 blue = exhaust & stop circuit.",
+  [
+   "No spark? Unplug the stop-switch wire and test again before replacing the coil.",
+   "red"
+  ]
+ ]
+}

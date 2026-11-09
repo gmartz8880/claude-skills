@@ -1,0 +1,1260 @@
+{
+ "sheet": {
+  "title": "2010 TOYOTA TUNDRA SR5 · DOUBLE CAB · i-FORCE V8",
+  "subtitle": "INSTRUMENT PANEL (TRACED FROM OWNER PHOTO) - SWITCH BLANKS & HIGHER-TRIM FUNCTIONS",
+  "dwg_no": "EX-TUN-2010-01",
+  "owner": "A. EXAMPLE",
+  "company": "EXAMPLE ENGINEERING CO.",
+  "tagline": "ENGINEERING · FABRICATION · VEHICLE SYSTEMS",
+  "block_title": "TUNDRA SR5 INSTRUMENT PANEL - POVERTY BUTTON MAP",
+  "vehicle_line": "VEHICLE: 2010 TOYOTA TUNDRA SR5 DBL CAB 6.5' BED · V8",
+  "date": "08 NOV 2026",
+  "drawn": "A. Example",
+  "checked": "B.E.",
+  "sheet": "1 OF 1",
+  "scale": "NTS",
+  "proprietary": "PROPRIETARY - EXAMPLE ENGINEERING CO.. DO NOT SCALE DRAWING.",
+  "model_no": "2010 TUNDRA DC 4x4 - SR5 PKG (CODE BY VIN)"
+ },
+ "drawing": {
+  "origin": [
+   120,
+   300
+  ],
+  "width": 2080,
+  "height": 670,
+  "dim_label": "INSTRUMENT PANEL WIDTH (REF)",
+  "elements": [
+   {
+    "t": "path",
+    "d": [
+     [
+      "M",
+      0,
+      140
+     ],
+     [
+      "Q",
+      20,
+      40,
+      260,
+      35
+     ],
+     [
+      "L",
+      1820,
+      35
+     ],
+     [
+      "Q",
+      2060,
+      40,
+      2080,
+      140
+     ],
+     [
+      "L",
+      2080,
+      620
+     ],
+     [
+      "L",
+      0,
+      620
+     ],
+     [
+      "Z"
+     ]
+    ],
+    "sw": 5
+   },
+   {
+    "t": "path",
+    "d": [
+     [
+      "M",
+      40,
+      95
+     ],
+     [
+      "Q",
+      120,
+      70,
+      300,
+      68
+     ],
+     [
+      "L",
+      1780,
+      68
+     ],
+     [
+      "Q",
+      1960,
+      70,
+      2040,
+      95
+     ]
+    ],
+    "style": "dim",
+    "sw": 2,
+    "dash": true
+   },
+   {
+    "t": "blank",
+    "x": 1040,
+    "y": -70,
+    "w": 350,
+    "h": 52,
+    "label": "REAR-VIEW MIRROR (SR5: PLAIN)",
+    "size": 17
+   },
+   {
+    "t": "line",
+    "pts": [
+     [
+      1215,
+      -18
+     ],
+     [
+      1215,
+      35
+     ]
+    ],
+    "style": "dim"
+   },
+   {
+    "t": "rect",
+    "x": 1160,
+    "y": 40,
+    "w": 130,
+    "h": 34,
+    "rx": 6,
+    "sw": 2
+   },
+   {
+    "t": "text",
+    "x": 1225,
+    "y": 65,
+    "text": "CLOCK",
+    "size": 16,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "vent",
+    "x": 25,
+    "y": 125,
+    "w": 110,
+    "h": 150,
+    "n": 6
+   },
+   {
+    "t": "path",
+    "d": [
+     [
+      "M",
+      170,
+      300
+     ],
+     [
+      "Q",
+      175,
+      75,
+      520,
+      70
+     ],
+     [
+      "Q",
+      865,
+      75,
+      870,
+      300
+     ]
+    ],
+    "sw": 4
+   },
+   {
+    "t": "gauge",
+    "x": 255,
+    "y": 195,
+    "r": 52,
+    "label": "FUEL",
+    "size": 18
+   },
+   {
+    "t": "gauge",
+    "x": 425,
+    "y": 195,
+    "r": 92,
+    "label": "TACH",
+    "size": 18,
+    "label_dy": -38
+   },
+   {
+    "t": "gauge",
+    "x": 615,
+    "y": 195,
+    "r": 92,
+    "label": "MPH",
+    "size": 18,
+    "label_dy": -38
+   },
+   {
+    "t": "gauge",
+    "x": 785,
+    "y": 195,
+    "r": 52,
+    "label": "TEMP",
+    "size": 18
+   },
+   {
+    "t": "wheel",
+    "x": 520,
+    "y": 425,
+    "r": 212,
+    "hub": [
+     160,
+     124
+    ],
+    "spokes": [
+     186,
+     -6,
+     118,
+     62
+    ]
+   },
+   {
+    "t": "blank",
+    "x": 350,
+    "y": 417,
+    "w": 62,
+    "h": 40,
+    "label": "[ ]",
+    "size": 17
+   },
+   {
+    "t": "blank",
+    "x": 628,
+    "y": 417,
+    "w": 62,
+    "h": 40,
+    "label": "[ ]",
+    "size": 17
+   },
+   {
+    "t": "rect",
+    "x": 22,
+    "y": 315,
+    "w": 232,
+    "h": 285,
+    "rx": 10
+   },
+   {
+    "t": "text",
+    "x": 138,
+    "y": 305,
+    "text": "L. KNEE PANEL",
+    "size": 17,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "rect",
+    "x": 34,
+    "y": 327,
+    "w": 100,
+    "h": 92,
+    "sw": 2,
+    "rx": 6
+   },
+   {
+    "t": "circle",
+    "x": 84,
+    "y": 373,
+    "r": 24,
+    "sw": 2
+   },
+   {
+    "t": "text",
+    "x": 84,
+    "y": 439,
+    "text": "MIRROR ADJ",
+    "size": 14,
+    "style": "line",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "switch",
+    "x": 34,
+    "y": 447,
+    "w": 100,
+    "h": 40,
+    "label": "HL LVL",
+    "size": 16,
+    "sw": 2
+   },
+   {
+    "t": "switch",
+    "x": 34,
+    "y": 497,
+    "w": 100,
+    "h": 40,
+    "label": "DIMMER",
+    "size": 16,
+    "sw": 2
+   },
+   {
+    "t": "switch",
+    "x": 34,
+    "y": 547,
+    "w": 100,
+    "h": 40,
+    "label": "BED LT",
+    "size": 16,
+    "sw": 2
+   },
+   {
+    "t": "blank",
+    "x": 142,
+    "y": 327,
+    "w": 100,
+    "h": 40,
+    "label": "[ ]",
+    "size": 17
+   },
+   {
+    "t": "switch",
+    "x": 142,
+    "y": 377,
+    "w": 100,
+    "h": 40,
+    "label": "VSC OFF",
+    "size": 16,
+    "sw": 2
+   },
+   {
+    "t": "blank",
+    "x": 142,
+    "y": 447,
+    "w": 100,
+    "h": 40,
+    "label": "[ ]",
+    "size": 17
+   },
+   {
+    "t": "blank",
+    "x": 142,
+    "y": 497,
+    "w": 100,
+    "h": 40,
+    "label": "[ ]",
+    "size": 17
+   },
+   {
+    "t": "blank",
+    "x": 142,
+    "y": 547,
+    "w": 100,
+    "h": 40,
+    "label": "[ ]",
+    "size": 17
+   },
+   {
+    "t": "rect",
+    "x": 880,
+    "y": 95,
+    "w": 70,
+    "h": 250,
+    "rx": 8
+   },
+   {
+    "t": "path",
+    "d": [
+     [
+      "M",
+      915,
+      110
+     ],
+     [
+      "L",
+      935,
+      145
+     ],
+     [
+      "L",
+      895,
+      145
+     ],
+     [
+      "Z"
+     ]
+    ],
+    "style": "red",
+    "sw": 3
+   },
+   {
+    "t": "text",
+    "x": 915,
+    "y": 170,
+    "text": "HAZ",
+    "size": 14,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "switch",
+    "x": 888,
+    "y": 182,
+    "w": 54,
+    "h": 36,
+    "label": "INFO",
+    "size": 13,
+    "sw": 2
+   },
+   {
+    "t": "switch",
+    "x": 888,
+    "y": 226,
+    "w": 54,
+    "h": 36,
+    "label": "SEL",
+    "size": 13,
+    "sw": 2
+   },
+   {
+    "t": "blank",
+    "x": 888,
+    "y": 270,
+    "w": 54,
+    "h": 40,
+    "label": "[S]",
+    "size": 16
+   },
+   {
+    "t": "text",
+    "x": 915,
+    "y": 370,
+    "text": "DRIVE MON.",
+    "size": 14,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "vent",
+    "x": 962,
+    "y": 95,
+    "w": 82,
+    "h": 200,
+    "n": 7
+   },
+   {
+    "t": "vent",
+    "x": 1440,
+    "y": 105,
+    "w": 82,
+    "h": 190,
+    "n": 7
+   },
+   {
+    "t": "vent",
+    "x": 1968,
+    "y": 105,
+    "w": 90,
+    "h": 175,
+    "n": 6
+   },
+   {
+    "t": "rect",
+    "x": 1058,
+    "y": 85,
+    "w": 372,
+    "h": 535,
+    "rx": 18,
+    "sw": 4
+   },
+   {
+    "t": "rect",
+    "x": 1080,
+    "y": 105,
+    "w": 328,
+    "h": 165,
+    "rx": 8
+   },
+   {
+    "t": "rect",
+    "x": 1120,
+    "y": 118,
+    "w": 248,
+    "h": 10,
+    "sw": 2
+   },
+   {
+    "t": "text",
+    "x": 1244,
+    "y": 168,
+    "text": "AM/FM · 6-CD",
+    "size": 24,
+    "style": "line",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "rect",
+    "x": 1150,
+    "y": 182,
+    "w": 190,
+    "h": 34,
+    "sw": 2,
+    "style": "dim"
+   },
+   {
+    "t": "circle",
+    "x": 1105,
+    "y": 235,
+    "r": 18
+   },
+   {
+    "t": "circle",
+    "x": 1383,
+    "y": 235,
+    "r": 18
+   },
+   {
+    "t": "rect",
+    "x": 1080,
+    "y": 285,
+    "w": 328,
+    "h": 150,
+    "rx": 8
+   },
+   {
+    "t": "text",
+    "x": 1244,
+    "y": 308,
+    "text": "HVAC - MANUAL",
+    "size": 16,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "rect",
+    "x": 1110,
+    "y": 318,
+    "w": 44,
+    "h": 18,
+    "sw": 2,
+    "style": "dim"
+   },
+   {
+    "t": "rect",
+    "x": 1168,
+    "y": 318,
+    "w": 44,
+    "h": 18,
+    "sw": 2,
+    "style": "dim"
+   },
+   {
+    "t": "rect",
+    "x": 1226,
+    "y": 318,
+    "w": 44,
+    "h": 18,
+    "sw": 2,
+    "style": "dim"
+   },
+   {
+    "t": "rect",
+    "x": 1284,
+    "y": 318,
+    "w": 44,
+    "h": 18,
+    "sw": 2,
+    "style": "dim"
+   },
+   {
+    "t": "rect",
+    "x": 1342,
+    "y": 318,
+    "w": 44,
+    "h": 18,
+    "sw": 2,
+    "style": "dim"
+   },
+   {
+    "t": "circle",
+    "x": 1160,
+    "y": 375,
+    "r": 33
+   },
+   {
+    "t": "circle",
+    "x": 1160,
+    "y": 375,
+    "r": 8,
+    "style": "dim",
+    "sw": 2
+   },
+   {
+    "t": "circle",
+    "x": 1244,
+    "y": 375,
+    "r": 33
+   },
+   {
+    "t": "circle",
+    "x": 1244,
+    "y": 375,
+    "r": 8,
+    "style": "dim",
+    "sw": 2
+   },
+   {
+    "t": "circle",
+    "x": 1328,
+    "y": 375,
+    "r": 33
+   },
+   {
+    "t": "circle",
+    "x": 1328,
+    "y": 375,
+    "r": 8,
+    "style": "dim",
+    "sw": 2
+   },
+   {
+    "t": "blank",
+    "x": 1205,
+    "y": 448,
+    "w": 92,
+    "h": 38,
+    "label": "[ L ]",
+    "size": 17
+   },
+   {
+    "t": "blank",
+    "x": 1318,
+    "y": 448,
+    "w": 92,
+    "h": 38,
+    "label": "[ R ]",
+    "size": 17
+   },
+   {
+    "t": "circle",
+    "x": 1112,
+    "y": 467,
+    "r": 30,
+    "label": "4WD",
+    "size": 15
+   },
+   {
+    "t": "rect",
+    "x": 1080,
+    "y": 505,
+    "w": 95,
+    "h": 105,
+    "rx": 8
+   },
+   {
+    "t": "line",
+    "pts": [
+     [
+      1127,
+      515
+     ],
+     [
+      1127,
+      600
+     ]
+    ],
+    "sw": 3
+   },
+   {
+    "t": "text",
+    "x": 1157,
+    "y": 530,
+    "text": "P",
+    "size": 14,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "text",
+    "x": 1157,
+    "y": 548,
+    "text": "R",
+    "size": 14,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "text",
+    "x": 1157,
+    "y": 566,
+    "text": "N",
+    "size": 14,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "text",
+    "x": 1157,
+    "y": 584,
+    "text": "D",
+    "size": 14,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "text",
+    "x": 1157,
+    "y": 602,
+    "text": "S",
+    "size": 14,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "text",
+    "x": 1127,
+    "y": 640,
+    "text": "SHIFTER",
+    "size": 15,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "rect",
+    "x": 1195,
+    "y": 505,
+    "w": 215,
+    "h": 95,
+    "rx": 8,
+    "sw": 2,
+    "style": "dim"
+   },
+   {
+    "t": "text",
+    "x": 1302,
+    "y": 548,
+    "text": "12V · AUX",
+    "size": 16,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "switch",
+    "x": 1210,
+    "y": 566,
+    "w": 90,
+    "h": 26,
+    "label": "TOW/H",
+    "size": 13,
+    "sw": 2
+   },
+   {
+    "t": "rect",
+    "x": 1548,
+    "y": 105,
+    "w": 405,
+    "h": 200,
+    "rx": 16
+   },
+   {
+    "t": "text",
+    "x": 1750,
+    "y": 212,
+    "text": "UPPER GLOVEBOX",
+    "size": 19,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "rect",
+    "x": 1548,
+    "y": 320,
+    "w": 520,
+    "h": 230,
+    "rx": 16
+   },
+   {
+    "t": "text",
+    "x": 1808,
+    "y": 455,
+    "text": "LOWER GLOVEBOX",
+    "size": 19,
+    "style": "dim",
+    "anchor": "ms",
+    "font": "body"
+   },
+   {
+    "t": "rect",
+    "x": 1768,
+    "y": 350,
+    "w": 80,
+    "h": 26,
+    "rx": 8,
+    "sw": 2
+   },
+   {
+    "t": "callout",
+    "x": 304,
+    "y": 467,
+    "n": 1
+   },
+   {
+    "t": "callout",
+    "x": 985,
+    "y": 286,
+    "n": 2
+   },
+   {
+    "t": "callout",
+    "x": 1251,
+    "y": 433,
+    "n": 3
+   },
+   {
+    "t": "callout",
+    "x": 1364,
+    "y": 433,
+    "n": 4
+   },
+   {
+    "t": "callout",
+    "x": 304,
+    "y": 567,
+    "n": 5
+   },
+   {
+    "t": "callout",
+    "x": 304,
+    "y": 347,
+    "n": 6
+   },
+   {
+    "t": "callout",
+    "x": 659,
+    "y": 385,
+    "n": 7
+   },
+   {
+    "t": "callout",
+    "x": 1415,
+    "y": -44,
+    "n": 8
+   },
+   {
+    "t": "callout",
+    "x": 304,
+    "y": 517,
+    "n": 9
+   },
+   {
+    "t": "callout",
+    "x": 1030,
+    "y": 467,
+    "n": 10
+   }
+  ]
+ },
+ "schedule": {
+  "title": "CALLOUT SCHEDULE - WHAT EACH BLANK IS / DOES ON HIGHER TRIMS",
+  "columns": [
+   "NO.",
+   "LOCATION",
+   "HIGHER-TRIM FUNCTION (2010)",
+   "FACTORY ON",
+   "RETROFIT PATH · DIFFICULTY"
+  ],
+  "rows": [
+   [
+    "1",
+    "Knee panel, 3rd blank",
+    "Spare - aux / accessory circuit",
+    "-",
+    "OEM-style switch + relay [2/5]"
+   ],
+   [
+    "2",
+    "Strip right of cluster",
+    "Front + rear CLEARANCE SONAR on/off",
+    "Limited/Platinum",
+    "OEM 84977-0C080 + ECU [5/5]"
+   ],
+   [
+    "3",
+    "Under HVAC knobs, left",
+    "DRIVER HEATED SEAT (Hi/Lo)",
+    "Limited; SR5 lthr",
+    "Heated-seat kit + switch [3/5]"
+   ],
+   [
+    "4",
+    "Under HVAC knobs, right",
+    "PASSENGER HEATED SEAT (Hi/Lo)",
+    "Limited; SR5 lthr",
+    "Same kit, 2nd seat [3/5]"
+   ],
+   [
+    "5",
+    "Knee panel, bottom blank",
+    "POWER SLIDING REAR WINDOW",
+    "Limited / option",
+    "Glass+motor+switch [4/5]"
+   ],
+   [
+    "6",
+    "Knee panel, top blank",
+    "POWER-FOLDING MIRRORS",
+    "Limited/Platinum",
+    "Ltd mirrors+switch [4/5]"
+   ],
+   [
+    "7",
+    "Steering-wheel spokes",
+    "AUDIO / PHONE WHEEL CONTROLS",
+    "Limited; JBL/Nav",
+    "Wheel+spiral cable [4/5]"
+   ],
+   [
+    "8",
+    "Rear-view mirror",
+    "AUTO-DIM + COMPASS + HOMELINK",
+    "Limited; option",
+    "Gentex-type mirror [2/5]"
+   ],
+   [
+    "9",
+    "Knee panel, 4th blank",
+    "TRAILER BRAKE CONTROLLER knob",
+    "Prewire, tow pkg",
+    "Plug-in harness [2/5]"
+   ],
+   [
+    "10",
+    "Stack, left of shifter",
+    "4WD dial (4x4) / coin tray (4x2)",
+    "Drivetrain",
+    "Not a trim unlock"
+   ]
+  ],
+  "footnotes": [
+   "[n/5] = difficulty, 1 bolt-on to 5 dealer-level. Positions vary by build - pull the panel and check the connector first.",
+   "Already fitted on SR5: headlight leveling, dimmer, VSC OFF, TOW/HAUL, mirror adjust, bed light, MID keys."
+  ]
+ },
+ "notes": [
+  "1. SCHEMATIC - NOT TO SCALE.",
+  "   DRIVER-SEAT VIEW.",
+  "2. DASHED YELLOW = FACTORY BLANK OR",
+  "   FEATURE DELETED ON SR5.",
+  "3. A CONNECTOR BEHIND A BLANK DOES NOT",
+  "   MEAN THE FEATURE IS ONE SWITCH AWAY.",
+  "4. NEG. BATTERY OFF, WAIT 90+ s BEFORE",
+  "   WORK NEAR AIRBAGS (SRS).",
+  "5. FUSE-TAP ACC/IG CIRCUITS ONLY.",
+  "   NEVER TAP SRS / ECU / CAN WIRES.",
+  "6. KNEE PANEL: 10 mm BOLTS + CLIPS.",
+  "7. SEE TECH ORDER EX-TUN-2010-01."
+ ],
+ "legend_fitted": "FITTED SR5 CONTROL",
+ "revisions": [
+  [
+   "A",
+   "08 NOV 2026",
+   "INITIAL RELEASE",
+   "A.EXAMPLE"
+  ]
+ ],
+ "sources": [
+  "SOURCES: Toyota EPC listings, 2010",
+  "Tundra spec sheets, KBB / Auto123,",
+  "owner forums (see tech order)."
+ ],
+ "verify_line": "VERIFY ALL P/N BY VIN WITH A TOYOTA DEALER.",
+ "detail": {
+  "title": "DETAIL A - SWITCH BLANK REMOVAL & REPLACEMENT (SECTION, NTS)",
+  "elements": [
+   {
+    "t": "rect",
+    "x": 60,
+    "y": 120,
+    "w": 40,
+    "h": 260
+   },
+   {
+    "t": "text",
+    "x": 80,
+    "y": 410,
+    "text": "DASH",
+    "size": 18,
+    "style": "dim",
+    "anchor": "ms"
+   },
+   {
+    "t": "blank",
+    "x": 100,
+    "y": 200,
+    "w": 150,
+    "h": 100,
+    "label": "BLANK",
+    "size": 20
+   },
+   {
+    "t": "text",
+    "x": 290,
+    "y": 190,
+    "text": "LOCK TABS - SQUEEZE FROM BEHIND",
+    "size": 19,
+    "style": "blank"
+   },
+   {
+    "t": "text",
+    "x": 290,
+    "y": 330,
+    "text": "PUSH OUT TOWARD CABIN",
+    "size": 19,
+    "style": "blank"
+   },
+   {
+    "t": "path",
+    "d": [
+     [
+      "M",
+      250,
+      205
+     ],
+     [
+      "L",
+      275,
+      190
+     ],
+     [
+      "L",
+      275,
+      220
+     ],
+     [
+      "Z"
+     ]
+    ],
+    "style": "blank",
+    "sw": 2
+   },
+   {
+    "t": "path",
+    "d": [
+     [
+      "M",
+      250,
+      295
+     ],
+     [
+      "L",
+      275,
+      310
+     ],
+     [
+      "L",
+      275,
+      280
+     ],
+     [
+      "Z"
+     ]
+    ],
+    "style": "blank",
+    "sw": 2
+   },
+   {
+    "t": "line",
+    "pts": [
+     [
+      95,
+      250
+     ],
+     [
+      40,
+      250
+     ]
+    ],
+    "style": "blank",
+    "sw": 4
+   },
+   {
+    "t": "line",
+    "pts": [
+     [
+      640,
+      250
+     ],
+     [
+      760,
+      250
+     ]
+    ],
+    "sw": 4
+   },
+   {
+    "t": "path",
+    "d": [
+     [
+      "M",
+      760,
+      250
+     ],
+     [
+      "L",
+      740,
+      238
+     ],
+     [
+      "L",
+      740,
+      262
+     ],
+     [
+      "Z"
+     ]
+    ],
+    "sw": 3
+   },
+   {
+    "t": "text",
+    "x": 700,
+    "y": 232,
+    "text": "REPLACE",
+    "size": 18,
+    "style": "dim",
+    "anchor": "ms"
+   },
+   {
+    "t": "switch",
+    "x": 790,
+    "y": 200,
+    "w": 150,
+    "h": 100,
+    "label": "SWITCH",
+    "size": 20
+   },
+   {
+    "t": "switch",
+    "x": 940,
+    "y": 225,
+    "w": 60,
+    "h": 50,
+    "label": "CN",
+    "size": 16
+   },
+   {
+    "t": "line",
+    "pts": [
+     [
+      1000,
+      240
+     ],
+     [
+      1090,
+      240
+     ]
+    ],
+    "style": "red",
+    "sw": 3
+   },
+   {
+    "t": "text",
+    "x": 1100,
+    "y": 246,
+    "text": "+12V ACC (fused)",
+    "size": 18,
+    "style": "red"
+   },
+   {
+    "t": "line",
+    "pts": [
+     [
+      1000,
+      264
+     ],
+     [
+      1090,
+      264
+     ]
+    ],
+    "sw": 3
+   },
+   {
+    "t": "text",
+    "x": 1100,
+    "y": 270,
+    "text": "TO RELAY 86",
+    "size": 18
+   },
+   {
+    "t": "line",
+    "pts": [
+     [
+      1000,
+      288
+     ],
+     [
+      1090,
+      288
+     ]
+    ],
+    "style": "blank",
+    "sw": 3
+   },
+   {
+    "t": "text",
+    "x": 1100,
+    "y": 294,
+    "text": "ILL+ (dash lights)",
+    "size": 18,
+    "style": "blank"
+   },
+   {
+    "t": "line",
+    "pts": [
+     [
+      1000,
+      312
+     ],
+     [
+      1090,
+      312
+     ]
+    ],
+    "style": "dim",
+    "sw": 3
+   },
+   {
+    "t": "text",
+    "x": 1100,
+    "y": 318,
+    "text": "GND",
+    "size": 18,
+    "style": "dim"
+   }
+  ],
+  "caption": "Pull lower panel (10 mm bolts + clips), squeeze tabs, push blank out, fit switch."
+ }
+}

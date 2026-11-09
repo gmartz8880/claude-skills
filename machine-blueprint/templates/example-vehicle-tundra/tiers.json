@@ -1,0 +1,357 @@
+{
+ "tier_label": "Grade",
+ "family": "2010 Toyota Tundra",
+ "note": "Toyota sold 2 grades for 2010 (Tundra, Limited); SR5, Work Truck, TRD and Platinum are packages. V = verify on window sticker / VIN.",
+ "tiers": [
+  {
+   "name": "Tundra Grade Regular Cab",
+   "code": "by VIN"
+  },
+  {
+   "name": "Tundra Grade Double Cab",
+   "code": "by VIN"
+  },
+  {
+   "name": "Tundra Grade CrewMax",
+   "code": "by VIN"
+  },
+  {
+   "name": "Limited Double Cab",
+   "code": "by VIN"
+  },
+  {
+   "name": "Limited CrewMax",
+   "code": "by VIN"
+  }
+ ],
+ "groups": [
+  {
+   "group": "Packages",
+   "features": [
+    {
+     "feature": "Work Truck Package (vinyl, manual mirrors)",
+     "values": [
+      "O",
+      "O",
+      "-",
+      "-",
+      "-"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "SR5 Package",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "-",
+      "-"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "TRD Off-Road Package",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "V",
+      "V"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "TRD Rock Warrior Package",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "-",
+      "-"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "TRD Sport Package",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "-",
+      "-"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Tow Package",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "V",
+      "V"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Cold Weather Package",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "-",
+      "-"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Color-Keyed Bumper Package",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "-",
+      "-"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Power Memory Package (seat, mirrors, wheel)",
+     "values": [
+      "-",
+      "-",
+      "-",
+      "O",
+      "O"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Platinum Package (5.7 V8 CrewMax)",
+     "values": [
+      "-",
+      "-",
+      "-",
+      "-",
+      "O"
+     ],
+     "code": ""
+    }
+   ]
+  },
+  {
+   "group": "Powertrain",
+   "features": [
+    {
+     "feature": "4.0L V6 1GR-FE, 236 hp, 5-speed",
+     "values": [
+      "O",
+      "-",
+      "-",
+      "-",
+      "-"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "4.6L V8 1UR-FE, 310 hp, 6-speed",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "5.7L V8 3UR-FE, 381 hp, 6-speed",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "4x4 part-time with low range",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+     ],
+     "code": ""
+    }
+   ]
+  },
+  {
+   "group": "Comfort & convenience",
+   "features": [
+    {
+     "feature": "Dual-zone automatic climate",
+     "values": [
+      "-",
+      "-",
+      "-",
+      "S",
+      "S"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Heated leather power front buckets",
+     "values": [
+      "-",
+      "-",
+      "-",
+      "S",
+      "S"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Ventilated front seats",
+     "values": [
+      "-",
+      "-",
+      "-",
+      "-",
+      "P"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Steering-wheel audio controls",
+     "values": [
+      "-",
+      "V",
+      "V",
+      "S",
+      "S"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Auto-dim mirror, compass, HomeLink",
+     "values": [
+      "O",
+      "O",
+      "O",
+      "S",
+      "S"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "JBL audio",
+     "values": [
+      "-",
+      "O",
+      "O",
+      "S",
+      "S"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Power moonroof",
+     "values": [
+      "-",
+      "-",
+      "O",
+      "-",
+      "O"
+     ],
+     "code": ""
+    }
+   ]
+  },
+  {
+   "group": "Exterior & safety",
+   "features": [
+    {
+     "feature": "Front & rear clearance sonar",
+     "values": [
+      "-",
+      "-",
+      "-",
+      "S",
+      "S"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Power-retract heated auto-dim mirrors",
+     "values": [
+      "-",
+      "-",
+      "-",
+      "S",
+      "S"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Split sliding rear window",
+     "values": [
+      "O",
+      "O",
+      "-",
+      "O",
+      "-"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Power vertical rear window",
+     "values": [
+      "-",
+      "-",
+      "S",
+      "-",
+      "S"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Bedrail system",
+     "values": [
+      "-",
+      "-",
+      "-",
+      "S",
+      "S"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "20 in alloy wheels",
+     "values": [
+      "-",
+      "-",
+      "-",
+      "O",
+      "P"
+     ],
+     "code": ""
+    },
+    {
+     "feature": "Driver knee airbag",
+     "values": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "code": ""
+    }
+   ]
+  }
+ ]
+}

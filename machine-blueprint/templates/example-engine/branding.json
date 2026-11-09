@@ -1,0 +1,10 @@
+{
+ "company": "EXAMPLE ENGINEERING CO.",
+ "tagline": "EXAMPLE TAGLINE - REPLACE",
+ "owner": "A. EXAMPLE",
+ "drawn": "A. Example",
+ "checked": "B.E.",
+ "approved": "",
+ "dwg_prefix": "EX",
+ "_note": "Example names only. In a real run ASK the user for every name and write their answers here (scripts/brand.py --write)."
+}

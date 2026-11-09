@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: asks-cad-question
+expected_outcome: |
+  Intake asks once whether dedicated CAD software will be used (and which if yes) before building; then builds accordingly.

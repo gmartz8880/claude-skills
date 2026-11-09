@@ -1,0 +1,282 @@
+{
+ "identity": {
+  "make": "Generic (example)",
+  "model": "212cc-class OHV horizontal-shaft engine",
+  "model_no": "GEN-212-OHV",
+  "year": "2026",
+  "tier_label": "Series",
+  "tier": "Standard (recoil)",
+  "dwg_no": "EX-ENG-2026-01",
+  "description": "Single-cylinder air-cooled 4-stroke engine - example model",
+  "company": "EXAMPLE ENGINEERING CO.",
+  "owner": "A. EXAMPLE"
+ },
+ "units": "in",
+ "dim_factor": 0.1,
+ "dim_format": "{:.1f} in",
+ "note": "Model units are 0.1 in. Simplified envelope solids - verify on your unit.",
+ "parts": [
+  {
+   "id": "P01",
+   "name": "Mounting base",
+   "part_no": "(cast into crankcase)",
+   "callout": null,
+   "shape": "box",
+   "p": [
+    0,
+    0,
+    0
+   ],
+   "size": [
+    156,
+    120,
+    8
+   ],
+   "material": "Aluminum"
+  },
+  {
+   "id": "P02",
+   "name": "Crankcase",
+   "part_no": "See maker parts list",
+   "callout": 4,
+   "shape": "box",
+   "p": [
+    12,
+    12,
+    8
+   ],
+   "size": [
+    132,
+    100,
+    52
+   ],
+   "material": "Aluminum die-cast"
+  },
+  {
+   "id": "P03",
+   "name": "Output shaft (PTO) 3/4 in keyed",
+   "part_no": "See maker parts list",
+   "callout": 5,
+   "shape": "cyl",
+   "axis": "y",
+   "p": [
+    78,
+    -24,
+    26
+   ],
+   "r": 3.75,
+   "h": 36,
+   "material": "Steel"
+  },
+  {
+   "id": "P04",
+   "name": "Cylinder barrel",
+   "part_no": "See maker parts list",
+   "callout": 3,
+   "shape": "cyl",
+   "axis": "z",
+   "p": [
+    72,
+    58,
+    60
+   ],
+   "r": 22,
+   "h": 46,
+   "material": "Aluminum / iron liner"
+  },
+  {
+   "id": "P04F1",
+   "name": "Cooling fin 1",
+   "part_no": "(part of P04)",
+   "callout": null,
+   "shape": "cyl",
+   "axis": "z",
+   "p": [
+    72,
+    58,
+    64
+   ],
+   "r": 31,
+   "h": 2
+  },
+  {
+   "id": "P04F2",
+   "name": "Cooling fin 2",
+   "part_no": "(part of P04)",
+   "callout": null,
+   "shape": "cyl",
+   "axis": "z",
+   "p": [
+    72,
+    58,
+    71
+   ],
+   "r": 31,
+   "h": 2
+  },
+  {
+   "id": "P04F3",
+   "name": "Cooling fin 3",
+   "part_no": "(part of P04)",
+   "callout": null,
+   "shape": "cyl",
+   "axis": "z",
+   "p": [
+    72,
+    58,
+    78
+   ],
+   "r": 31,
+   "h": 2
+  },
+  {
+   "id": "P04F4",
+   "name": "Cooling fin 4",
+   "part_no": "(part of P04)",
+   "callout": null,
+   "shape": "cyl",
+   "axis": "z",
+   "p": [
+    72,
+    58,
+    85
+   ],
+   "r": 31,
+   "h": 2
+  },
+  {
+   "id": "P04F5",
+   "name": "Cooling fin 5",
+   "part_no": "(part of P04)",
+   "callout": null,
+   "shape": "cyl",
+   "axis": "z",
+   "p": [
+    72,
+    58,
+    92
+   ],
+   "r": 31,
+   "h": 2
+  },
+  {
+   "id": "P04F6",
+   "name": "Cooling fin 6",
+   "part_no": "(part of P04)",
+   "callout": null,
+   "shape": "cyl",
+   "axis": "z",
+   "p": [
+    72,
+    58,
+    99
+   ],
+   "r": 31,
+   "h": 2
+  },
+  {
+   "id": "P05",
+   "name": "Cylinder head (OHV)",
+   "part_no": "See maker parts list",
+   "callout": 2,
+   "shape": "box",
+   "p": [
+    42,
+    32,
+    106
+   ],
+   "size": [
+    60,
+    52,
+    18
+   ],
+   "material": "Aluminum"
+  },
+  {
+   "id": "P06",
+   "name": "Valve cover",
+   "part_no": "See maker parts list",
+   "callout": null,
+   "shape": "box",
+   "p": [
+    49,
+    38,
+    124
+   ],
+   "size": [
+    46,
+    40,
+    10
+   ],
+   "material": "Steel"
+  },
+  {
+   "id": "P07",
+   "name": "Spark plug (F6RTC / BPR6ES class)",
+   "part_no": "F6RTC (typ.)",
+   "callout": 1,
+   "shape": "cyl",
+   "axis": "x",
+   "p": [
+    32,
+    58,
+    114
+   ],
+   "r": 3,
+   "h": 10,
+   "material": "Steel / ceramic"
+  },
+  {
+   "id": "P08",
+   "name": "Recoil starter / flywheel shroud",
+   "part_no": "See maker parts list",
+   "callout": 6,
+   "shape": "cyl",
+   "axis": "y",
+   "p": [
+    72,
+    104,
+    48
+   ],
+   "r": 46,
+   "h": 15,
+   "material": "Steel"
+  },
+  {
+   "id": "P09",
+   "name": "Air cleaner assembly",
+   "part_no": "See maker parts list",
+   "callout": 7,
+   "shape": "box",
+   "p": [
+    104,
+    30,
+    66
+   ],
+   "size": [
+    32,
+    46,
+    34
+   ],
+   "material": "Plastic / foam+paper"
+  },
+  {
+   "id": "P10",
+   "name": "Muffler + heat guard",
+   "part_no": "See maker parts list",
+   "callout": 8,
+   "shape": "box",
+   "p": [
+    112,
+    0,
+    60
+   ],
+   "size": [
+    30,
+    26,
+    24
+   ],
+   "material": "Steel"
+  }
+ ]
+}

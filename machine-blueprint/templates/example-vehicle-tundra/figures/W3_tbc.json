@@ -1,0 +1,118 @@
+{
+ "title": "FIG W-3  TRAILER BRAKE CONTROLLER - FACTORY PREWIRE",
+ "w": 1500,
+ "h": 760,
+ "boxes": [
+  {
+   "x": 40,
+   "y": 130,
+   "w": 320,
+   "h": 120,
+   "label": "FACTORY PORT",
+   "sub": "white plug above park brake",
+   "style": "blank"
+  },
+  {
+   "x": 450,
+   "y": 130,
+   "w": 300,
+   "h": 120,
+   "label": "PLUG-IN HARNESS",
+   "sub": "Tekonsha 3040-P / equiv."
+  },
+  {
+   "x": 840,
+   "y": 110,
+   "w": 320,
+   "h": 160,
+   "label": "CONTROLLER",
+   "sub": "proportional",
+   "style": "blank"
+  },
+  {
+   "x": 840,
+   "y": 350,
+   "w": 320,
+   "h": 110,
+   "label": "REMOTE KNOB",
+   "sub": "optional, blank 9"
+  },
+  {
+   "x": 1250,
+   "y": 130,
+   "w": 210,
+   "h": 120,
+   "label": "7-WAY",
+   "sub": "rear bumper"
+  }
+ ],
+ "wires": [
+  {
+   "pts": [
+    [
+     360,
+     190
+    ],
+    [
+     450,
+     190
+    ]
+   ],
+   "style": "blank"
+  },
+  {
+   "pts": [
+    [
+     750,
+     190
+    ],
+    [
+     840,
+     190
+    ]
+   ],
+   "style": "blank"
+  },
+  {
+   "pts": [
+    [
+     1160,
+     190
+    ],
+    [
+     1250,
+     190
+    ]
+   ],
+   "style": [
+    111,
+    182,
+    255
+   ],
+   "label": "blue = brake out",
+   "lx": 1120,
+   "ly": 300
+  },
+  {
+   "pts": [
+    [
+     1000,
+     270
+    ],
+    [
+     1000,
+     350
+    ]
+   ],
+   "style": "dim"
+  }
+ ],
+ "notes": [
+  "WITH factory tow pkg (7-way): plug-and-play - click harness in, mount controller, set gain.",
+  [
+   "WITHOUT tow pkg: port may be dead / blue wire not run - add 10 AWG wire + 7-way kit first.",
+   "red"
+  ],
+  "Port is often taped to another harness or up behind the driver kick panel. Meter it first."
+ ]
+}

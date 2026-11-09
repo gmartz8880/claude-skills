@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: lawn-tractor-full-package
+expected_outcome: |
+  A zipped package with a multi-sheet aged blueprint set (GA, deck/belt or drive, electrical/safety interlocks, parts), a 15-section technical manual with real John Deere specs and part numbers, a parts CSV, and a chat ending with parts and pictures.

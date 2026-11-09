@@ -1,0 +1,6 @@
+Bundled fonts (from github.com/google/fonts):
+- Special Elite (Astigmatic) - Apache License 2.0
+- Stardos Stencil (Vernon Adams) - SIL Open Font License 1.1
+- Courier Prime (Alan Dague-Greene / Quote-Unquote Apps) - SIL Open Font License 1.1
+- Architects Daughter (Kimberly Geswein) - SIL Open Font License 1.1
+Both licenses permit redistribution with the software.

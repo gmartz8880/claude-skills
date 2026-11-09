@@ -1,0 +1,15 @@
+# Never publish generated output - only the skill itself
+out/
+*/out/
+_work/
+_paper/
+*.pdf
+*.png
+*.jpg
+*.zip
+*.step
+*.stp
+*.dxf
+*.FCStd
+*.csv
+__pycache__/
