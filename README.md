@@ -18,6 +18,7 @@ Custom skills I built for Claude (claude.ai and Claude Code).
 | machine-blueprint | Vintage blueprint set + PDF technical manual for any machine or entire vehicle (every trim/option, model numbers, key sheet, electrical schematics, isometric, multi-view), with optional AutoCAD / SolidWorks / Fusion / FreeCAD files. Asks for every name it uses. |
 | amazon-market-research | Amazon shopping research: asks what you are buying, your examples, how many more and your must-haves, then builds a colorful Excel comparison (ASIN, dated price, features, link, picture) sorted by price with one positive and one negative outlier |
 | advanced-search | Writes sharp web searches with operators (quotes, site:, filetype:, date limits) and a step-by-step fix ladder for weak results |
+| sassy-meemaw | Answers with attitude: a sharp-tongued Southern grandma plus teen-sitcom sass and family-sitcom roasts, while still giving the real answer |
 
 ## Install
 
