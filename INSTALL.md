@@ -85,7 +85,7 @@ To update later: `git pull` in the clone and copy the folders again.
 | skill-forge | Works anywhere. Its scripts (validate, package, install) work best in Claude Code. |
 | voice-line | Claude Code only, Windows-focused. Needs the Telegram plugin (`/plugin install telegram@claude-plugins-official`, then `/telegram:configure <your bot token>`), plus ffmpeg, `faster-whisper` and `piper-tts`. Run `python ~/.claude/skills/voice-line/scripts/doctor.py` to see what's missing. Then tell Claude your name: `python ~/.claude/skills/voice-line/scripts/speak.py --remember-name "Your Name"`. |
 | docs-to-skill | Python 3.10+, internet, and the skill-forge skill. scripts/setup_env.py installs Skill Seekers (pip/uv package skill-seekers) if missing. |
-| accounting-questions, ancient-script-translator, evidence-research | Nothing extra. |
+| accounting-questions, ancient-script-translator, evidence-research, advanced-search | Nothing extra. |
 
 ---
 

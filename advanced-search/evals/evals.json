@@ -1,0 +1,42 @@
+{
+ "skill": "advanced-search",
+ "should_trigger": [
+  {
+   "prompt": "what does the federal rule actually say about how often fire extinguishers need to be inspected? i want the official text not some blog",
+   "expected": [
+    "uses quoted terms and a site: or .gov restriction toward the issuing agency",
+    "opens and reads the official page before stating the requirement",
+    "cites the primary source"
+   ]
+  },
+  {
+   "prompt": "find me the owner's manual pdf for a Honda EU2200i generator, I need the oil capacity",
+   "expected": [
+    "quotes the model number",
+    "uses filetype:pdf or targets the manufacturer",
+    "reads the manual and reports the figure with a citation"
+   ]
+  },
+  {
+   "prompt": "compare the battery life of the three most popular e-readers right now",
+   "expected": [
+    "runs a separate search per product",
+    "adds a current year or date limit",
+    "prefers manufacturer specs over listicles"
+   ]
+  },
+  {
+   "prompt": "getting 'error: externally-managed-environment' when I pip install on debian, what's the right fix",
+   "expected": [
+    "searches the exact error text in quotes",
+    "targets official docs or a project tracker if results are noisy",
+    "does not use removed operators"
+   ]
+  }
+ ],
+ "should_not_trigger": [
+  "rewrite this paragraph so it sounds less formal",
+  "write me a short story about a lighthouse keeper",
+  "summarize the PDF I just attached, don't use anything outside it"
+ ]
+}
