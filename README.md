@@ -16,6 +16,7 @@ Custom skills I built for Claude (claude.ai and Claude Code).
 | voice-line | Two-way voice chat with Claude Code over Telegram (needs the Telegram plugin, whisper, piper, ffmpeg) |
 | docs-to-skill | Turns a documentation website into a skill: Skill Seekers scrape, then the skill-forge gate (validate, test, package, install); publishes only when the docs license allows. |
 | machine-blueprint | Vintage blueprint set + PDF technical manual for any machine or entire vehicle (every trim/option, model numbers, key sheet, electrical schematics, isometric, multi-view), with optional AutoCAD / SolidWorks / Fusion / FreeCAD files. Asks for every name it uses. |
+| amazon-market-research | Amazon shopping research: asks what you are buying, your examples, how many more and your must-haves, then builds a colorful Excel comparison (ASIN, dated price, features, link, picture) sorted by price with one positive and one negative outlier |
 
 ## Install
 

@@ -1,0 +1,23 @@
+{
+  "skill_name": "amazon-market-research",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm shopping for a robot vacuum. I already like B0CXXXXXXX and https://a.co/d/abc123 - find me 4 more. Must have: self-emptying base, mapping, under $400. Excel sheet please.",
+      "expected_output": "Asks nothing already answered, resolves both examples, finds 4 qualifying listings with ASIN, dated price, features, link, picture; sorted by price then features; 1 positive and 1 negative outlier; flags any user pick that fails.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "help me pick a standing desk on amazon",
+      "expected_output": "One question round: budget/must-haves, examples, how many; then builds the comparison workbook with defaults (5 new + 2 outliers).",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Compare these 3 gaming headsets I found on Amazon and find 5 more that have wireless, 30h+ battery and are under $120. Include ASINs.",
+      "expected_output": "Workbook with the 3 user items (marked YES/NO per rule) + 5 new finds + outliers, every row with a 10-character ASIN and amazon.com/dp link.",
+      "files": []
+    }
+  ]
+}
